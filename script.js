@@ -1,0 +1,4 @@
+const translations=document.querySelectorAll('[data-ko][data-en]');
+function setLanguage(lang){lang=lang==='en'?'en':'ko';document.documentElement.lang=lang;translations.forEach(el=>el.innerHTML=el.dataset[lang]);document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===lang)));document.querySelector('meta[name="description"]').content=lang==='ko'?'런던의 AI 엔지니어 Ember. AI 도구, 쉬운 테크 이야기, 그리고 조금의 런던 일상.':'Meet Ember, an AI engineer in London. Approachable AI, useful tools, and a little life.';try{localStorage.setItem('ember-language',lang)}catch{};}
+document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang)));
+let initial='ko';try{initial=new URLSearchParams(location.search).get('lang')||localStorage.getItem('ember-language')||'ko'}catch{}setLanguage(initial);

@@ -1,9 +1,112 @@
 <!DOCTYPE html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f6f8"><title>직장인을 위한 Claude Code 명령어 전체 가이드 · emberjihyo</title><meta name="description" content="근데 잠깐만, 계획부터 잡자, 어제 하던 일 이어서. Claude Code 공식 명령어 120개 항목의 뜻과 사용 상황. 업무 중 입력할 예시도 함께 적었어요."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css"><link rel="stylesheet" href="../styles.css?v=20261025-hero"><link rel="stylesheet" href="../notes.css?v=20261025-guide"></head>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f6f8"><title>Claude Code 명령어 120개: 뜻과 업무 예시 | emberjihyo</title><meta name="description" content="Claude Code 슬래시 명령어 120개 항목의 뜻과 사용 예시. /btw, /plan, /resume 등 먼저 써볼 10개부터 대화 정리와 작업 설정까지 한국어로 설명합니다."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css"><link rel="stylesheet" href="../styles.css?v=20261025-hero"><link rel="stylesheet" href="../notes.css?v=20261026-seo">
+<link rel="canonical" href="https://emberjihyo.com/notes/claude-code-commands.html">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="Ember">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="emberjihyo">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="Claude Code 명령어 120개: 뜻과 업무 예시 | emberjihyo">
+<meta property="og:description" content="Claude Code 슬래시 명령어 120개 항목의 뜻과 사용 예시. /btw, /plan, /resume 등 먼저 써볼 10개부터 대화 정리와 작업 설정까지 한국어로 설명합니다.">
+<meta property="og:url" content="https://emberjihyo.com/notes/claude-code-commands.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Claude Code 명령어 120개: 뜻과 업무 예시 | emberjihyo">
+<meta name="twitter:description" content="Claude Code 슬래시 명령어 120개 항목의 뜻과 사용 예시. /btw, /plan, /resume 등 먼저 써볼 10개부터 대화 정리와 작업 설정까지 한국어로 설명합니다.">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<meta property="article:published_time" content="2026-10-25">
+<meta property="article:modified_time" content="2026-10-26">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://emberjihyo.com/#website",
+      "url": "https://emberjihyo.com/",
+      "name": "emberjihyo",
+      "publisher": {
+        "@id": "https://emberjihyo.com/#ember"
+      },
+      "inLanguage": "ko"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://emberjihyo.com/#ember",
+      "name": "Ember",
+      "url": "https://emberjihyo.com/#about",
+      "jobTitle": "AI engineer",
+      "sameAs": [
+        "https://www.instagram.com/emberjihyo/"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://emberjihyo.com/notes/claude-code-commands.html#webpage",
+      "url": "https://emberjihyo.com/notes/claude-code-commands.html",
+      "name": "Claude Code 명령어 120개: 뜻과 업무 예시 | emberjihyo",
+      "description": "Claude Code 슬래시 명령어 120개 항목의 뜻과 사용 예시. /btw, /plan, /resume 등 먼저 써볼 10개부터 대화 정리와 작업 설정까지 한국어로 설명합니다.",
+      "inLanguage": "ko",
+      "isPartOf": {
+        "@id": "https://emberjihyo.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://emberjihyo.com/notes/claude-code-commands.html#article"
+      },
+      "breadcrumb": {
+        "@id": "https://emberjihyo.com/notes/claude-code-commands.html#breadcrumb"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://emberjihyo.com/notes/claude-code-commands.html#article",
+      "url": "https://emberjihyo.com/notes/claude-code-commands.html",
+      "headline": "클로드 명령어, 이럴 때 써요.",
+      "description": "Claude Code 슬래시 명령어 120개 항목의 뜻과 사용 예시. /btw, /plan, /resume 등 먼저 써볼 10개부터 대화 정리와 작업 설정까지 한국어로 설명합니다.",
+      "author": {
+        "@id": "https://emberjihyo.com/#ember"
+      },
+      "publisher": {
+        "@id": "https://emberjihyo.com/#ember"
+      },
+      "datePublished": "2026-10-25",
+      "dateModified": "2026-10-26",
+      "inLanguage": "ko",
+      "articleSection": "AI at work",
+      "about": {
+        "@type": "Thing",
+        "name": "Claude Code"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://emberjihyo.com/notes/claude-code-commands.html#webpage"
+      },
+      "isAccessibleForFree": true
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://emberjihyo.com/notes/claude-code-commands.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Notes",
+          "item": "https://emberjihyo.com/notes.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "클로드 명령어, 이럴 때 써요.",
+          "item": "https://emberjihyo.com/notes/claude-code-commands.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
 <body class="guide-body"><a class="skip-link" href="#main">본문으로 건너뛰기</a><header class="header"><div class="wrap nav"><a class="logo" href="../index.html" aria-label="emberjihyo 홈">emberjihyo<span>✳</span></a><nav class="navlinks" aria-label="주 메뉴"><a href="../index.html#about">소개</a><a href="../index.html#explore">이야기</a><a href="../notes.html" aria-current="page">Notes</a></nav><a class="guide-back" href="../notes.html">← 모든 노트</a></div></header>
 <main id="main"><div class="wrap"><div class="guide-breadcrumb"><a href="../notes.html">Notes</a><span>/</span><span>AI at work</span></div>
-<header class="guide-hero"><div class="eyebrow micro"><i class="dot"></i>Claude Code at work</div><h1>클로드 명령어,<br><span>이럴 때 써요.</span></h1><p class="guide-deck">하던 일 중에 질문 하나만 하고 싶을 때가 있죠.<br>그럴 때 어떤 명령어를 쓰면 되는지, 업무 예시와 함께 적었어요.</p><div class="guide-byline"><span class="author-mark" aria-hidden="true">✳</span><span>글 · Ember</span><span>2026.10.25 기준</span><span>한국어 가이드</span></div><div class="guide-facts"><span><strong>120</strong>공식 표의 전체 항목</span><span><strong>10</strong>먼저 써볼 명령</span><span><strong>12</strong>상황별 묶음</span><a href="https://code.claude.com/docs/en/commands" target="_blank" rel="noopener noreferrer">공식 문서 함께 보기 ↗</a></div></header>
-<div class="guide-layout"><aside class="guide-sidebar" aria-label="글 목차"><div class="sidebar-inner"><p class="micro">IN THIS NOTE</p><a class="toc-intro" href="#before-start">읽기 전에</a><a class="toc-intro" href="#first-ten">먼저 써볼 10개</a><nav aria-label="상황별 명령어"><a href="#group-start" data-nav-group="start"><span>01</span>처음 시작할 때<small>6</small></a><a href="#group-conversation" data-nav-group="conversation"><span>02</span>대화를 정리하고 이어갈 때<small>12</small></a><a href="#group-model" data-nav-group="model"><span>03</span>모델과 생각의 강도를 고를 때<small>4</small></a><a href="#group-research" data-nav-group="research"><span>04</span>조사하고 시각 자료를 만들 때<small>10</small></a><a href="#group-parallel" data-nav-group="parallel"><span>05</span>일을 나누고 반복·예약할 때<small>12</small></a><a href="#group-files" data-nav-group="files"><span>06</span>코드를 만들고 검토할 때<small>12</small></a><a href="#group-tools" data-nav-group="tools"><span>07</span>스킬과 도구를 연결할 때<small>11</small></a><a href="#group-settings" data-nav-group="settings"><span>08</span>권한과 설정을 맞출 때<small>8</small></a><a href="#group-display" data-nav-group="display"><span>09</span>화면과 입력을 편하게 할 때<small>9</small></a><a href="#group-connect" data-nav-group="connect"><span>10</span>앱·브라우저·클라우드를 오갈 때<small>13</small></a><a href="#group-account" data-nav-group="account"><span>11</span>계정·사용량·문제를 확인할 때<small>20</small></a><a href="#group-retired" data-nav-group="retired"><span>12</span>예전 글에서 만났다면<small>3</small></a></nav><a class="sidebar-source" href="#references">기준과 참고 문서 ↗</a></div></aside>
+<header class="guide-hero"><div class="eyebrow micro"><i class="dot"></i>Claude Code at work</div><h1>클로드 명령어,<br><span>이럴 때 써요.</span></h1><p class="guide-deck">하던 일 중에 질문 하나만 하고 싶을 때가 있죠.<br>그럴 때 어떤 명령어를 쓰면 되는지, 업무 예시와 함께 적었어요.</p><div class="guide-byline"><span class="author-mark" aria-hidden="true">✳</span><span>글 · <a href="../#about" rel="author">Ember</a></span><span>작성 <time datetime="2026-10-25">2026.10.25</time> · 수정 <time datetime="2026-10-26">2026.10.26</time></span><span>한국어 가이드</span></div><div class="guide-facts"><span><strong>120</strong>공식 표의 전체 항목</span><span><strong>10</strong>먼저 써볼 명령</span><span><strong>12</strong>상황별 묶음</span><a href="https://code.claude.com/docs/en/commands" target="_blank" rel="noopener noreferrer">공식 문서 함께 보기 ↗</a></div></header>
+<section class="note-answer prose" aria-labelledby="note-answer-title"><h2 id="note-answer-title">Claude Code 슬래시 명령어는 어디에 쓰나요?</h2><p><strong>Claude Code 입력창 맨 앞에 <code>/</code>를 적으면 명령과 스킬을 고를 수 있어요.</strong> 하던 일 중에 질문만 하고 싶으면 <code>/btw</code>, 계획을 먼저 세우려면 <code>/plan</code>, 이전 대화를 이어가려면 <code>/resume</code>을 쓰세요.</p></section><div class="guide-layout"><aside class="guide-sidebar" aria-label="글 목차"><div class="sidebar-inner"><p class="micro">IN THIS NOTE</p><a class="toc-intro" href="#before-start">읽기 전에</a><a class="toc-intro" href="#first-ten">먼저 써볼 10개</a><nav aria-label="상황별 명령어"><a href="#group-start" data-nav-group="start"><span>01</span>처음 시작할 때<small>6</small></a><a href="#group-conversation" data-nav-group="conversation"><span>02</span>대화를 정리하고 이어갈 때<small>12</small></a><a href="#group-model" data-nav-group="model"><span>03</span>모델과 생각의 강도를 고를 때<small>4</small></a><a href="#group-research" data-nav-group="research"><span>04</span>조사하고 시각 자료를 만들 때<small>10</small></a><a href="#group-parallel" data-nav-group="parallel"><span>05</span>일을 나누고 반복·예약할 때<small>12</small></a><a href="#group-files" data-nav-group="files"><span>06</span>코드를 만들고 검토할 때<small>12</small></a><a href="#group-tools" data-nav-group="tools"><span>07</span>스킬과 도구를 연결할 때<small>11</small></a><a href="#group-settings" data-nav-group="settings"><span>08</span>권한과 설정을 맞출 때<small>8</small></a><a href="#group-display" data-nav-group="display"><span>09</span>화면과 입력을 편하게 할 때<small>9</small></a><a href="#group-connect" data-nav-group="connect"><span>10</span>앱·브라우저·클라우드를 오갈 때<small>13</small></a><a href="#group-account" data-nav-group="account"><span>11</span>계정·사용량·문제를 확인할 때<small>20</small></a><a href="#group-retired" data-nav-group="retired"><span>12</span>예전 글에서 만났다면<small>3</small></a></nav><a class="sidebar-source" href="#references">기준과 참고 문서 ↗</a></div></aside>
 <div class="guide-content"><section class="guide-intro prose" id="before-start"><p class="section-kicker">사용하기 전에</p><h2>입력창에서 바로 쓸 수 있어요.</h2><p>보고서를 쓰다 모르는 용어가 나왔는데, 질문했다가 작업 흐름이 바뀔까 망설일 때가 있어요. 이럴 때는 별도 질문을 하는 명령을 쓰면 됩니다. 수정 전으로 돌아가거나 어제 대화를 찾는 일도 짧은 명령으로 할 수 있어요.</p><p>처음이라면 아래 추천 10개부터 써보세요. <strong>공식 명령 표의 120개 항목</strong>을 모두 담았으니, 나머지는 필요한 일이 생겼을 때 찾아보면 돼요.</p><div class="guide-callout"><span aria-hidden="true">✳</span><div><strong>어디에 입력하나요?</strong><p>Claude Code 입력창 <strong>맨 앞</strong>에 적으면 됩니다. <code>/</code>만 입력하면 지금 쓸 수 있는 목록이 나와요. 메뉴가 열리면 원하는 항목을 고르세요. 일반 Claude 웹 채팅과는 사용할 수 있는 기능이 다릅니다.</p></div></div><div class="reading-notes"><p>명령 뒤에 붙인 한국어는 업무 상황에 맞춰 쓴 예시예요. <code>../reference-data</code> 같은 경로는 내 폴더 이름으로 바꿔주세요. 명령만 적힌 예시는 실행한 뒤 나오는 안내를 따르면 됩니다.</p><p>120개에는 같은 기능을 다른 이름으로 부르는 별칭 4개, 이미 삭제된 명령 3개도 포함돼요. 현재 쓸 수 있는 서로 다른 기능이 120개라는 뜻은 아닙니다. <code>/design consent</code>와 <code>/design revoke</code>는 한 항목으로 다뤘어요.</p><p>낯선 용어도 나와요. 세션은 하나의 작업 대화, 컨텍스트는 지금 참고할 수 있는 대화 공간을 말합니다. PR은 코드 변경 제안이고, 브랜치는 작업 갈래, 저장소는 프로젝트를 관리하는 공간이에요. 스킬은 반복 업무 매뉴얼, 아티팩트는 열어보거나 공유할 수 있는 결과물로 생각하면 됩니다.</p></div></section>
 <section id="first-ten" class="quickstart"><div class="quickstart-head"><span class="section-kicker">추천 명령어</span><span class="micro">일단 이것부터</span></div><h2>업무 중 자주 찾게 될 10개</h2><p>누르면 설명과 입력 예시를 볼 수 있어요.</p><div class="quick-grid"><a href="#cmd-btw"><code>/btw</code><span>근데 잠깐만</span><span aria-hidden="true">↘</span></a><a href="#cmd-plan"><code>/plan</code><span>계획부터 잡자</span><span aria-hidden="true">↘</span></a><a href="#cmd-compact"><code>/compact</code><span>정리하고 계속</span><span aria-hidden="true">↘</span></a><a href="#cmd-clear"><code>/clear</code><span>새 업무 시작</span><span aria-hidden="true">↘</span></a><a href="#cmd-resume"><code>/resume</code><span>어제 일 이어서</span><span aria-hidden="true">↘</span></a><a href="#cmd-rewind"><code>/rewind</code><span>수정 전으로</span><span aria-hidden="true">↘</span></a><a href="#cmd-memory"><code>/memory</code><span>규칙 기억하기</span><span aria-hidden="true">↘</span></a><a href="#cmd-copy"><code>/copy</code><span>답변 복사</span><span aria-hidden="true">↘</span></a><a href="#cmd-export"><code>/export</code><span>대화 저장</span><span aria-hidden="true">↘</span></a><a href="#cmd-usage"><code>/usage</code><span>얼마나 썼지?</span><span aria-hidden="true">↘</span></a></div><p class="quick-note">비개발 직군에서 자주 쓸 만한 기능으로 제가 골랐어요. 공식 순위는 아닙니다.</p></section>
 <section class="guide-cheatsheet prose"><h2>대화를 정리할 때 헷갈리는 네 가지</h2><div class="comparison-grid"><div><strong>다른 업무로 넘어간다</strong><code>/clear</code><p>이전 맥락을 비우고 시작해요.</p></div><div><strong>같은 업무를 계속한다</strong><code>/compact</code><p>요약해두고 같은 일을 계속해요.</p></div><div><strong>지금 잠깐 묻는다</strong><code>/btw</code><p>본 대화 기록에 남지 않아요.</p></div><div><strong>이전 대화로 돌아간다</strong><code>/resume</code><p>전에 하던 대화를 다시 열어요.</p></div></div></section>
@@ -850,4 +953,4 @@
 
 </article></section>
 <section class="guide-ending prose" id="references"><p class="section-kicker">찾아볼 때</p><h2>기억나지 않으면 목록을 열어보세요.</h2><p>잠깐 질문할 때는 <code>/btw</code>를 써보세요. 그다음에는 계획을 세우는 <code>/plan</code>이나 이전 대화를 여는 <code>/resume</code>처럼 필요한 기능을 하나씩 익히면 돼요.</p><h3>참고 문서와 확인 날짜</h3><p>설치 버전과 요금제, 운영체제에 따라 쓸 수 있는 명령이 다릅니다. 조직 정책이나 활성화한 기능도 영향을 줘요. Design·Slides·클라우드 기능은 내 계정에서 지원하는지 확인해주세요.</p><details class="reference-details"><summary>공식 참고 문서 48개</summary><ul><li><a href="https://code.claude.com/docs/en/advisor" target="_blank" rel="noopener noreferrer">advisor ↗</a></li><li><a href="https://code.claude.com/docs/en/agent-view" target="_blank" rel="noopener noreferrer">agent-view ↗</a></li><li><a href="https://code.claude.com/docs/en/amazon-bedrock" target="_blank" rel="noopener noreferrer">amazon-bedrock ↗</a></li><li><a href="https://code.claude.com/docs/en/artifacts" target="_blank" rel="noopener noreferrer">artifacts ↗</a></li><li><a href="https://code.claude.com/docs/en/authentication" target="_blank" rel="noopener noreferrer">authentication ↗</a></li><li><a href="https://code.claude.com/docs/en/auto-mode-config" target="_blank" rel="noopener noreferrer">auto-mode-config ↗</a></li><li><a href="https://code.claude.com/docs/en/checkpointing" target="_blank" rel="noopener noreferrer">checkpointing ↗</a></li><li><a href="https://code.claude.com/docs/en/chrome" target="_blank" rel="noopener noreferrer">chrome ↗</a></li><li><a href="https://code.claude.com/docs/en/claude-code-on-the-web" target="_blank" rel="noopener noreferrer">claude-code-on-the-web ↗</a></li><li><a href="https://code.claude.com/docs/en/cloud-environments" target="_blank" rel="noopener noreferrer">cloud-environments ↗</a></li><li><a href="https://code.claude.com/docs/en/code-review-local" target="_blank" rel="noopener noreferrer">code-review-local ↗</a></li><li><a href="https://code.claude.com/docs/en/commands" target="_blank" rel="noopener noreferrer">commands ↗</a></li><li><a href="https://code.claude.com/docs/en/common-workflows" target="_blank" rel="noopener noreferrer">common-workflows ↗</a></li><li><a href="https://code.claude.com/docs/en/context-window" target="_blank" rel="noopener noreferrer">context-window ↗</a></li><li><a href="https://code.claude.com/docs/en/costs" target="_blank" rel="noopener noreferrer">costs ↗</a></li><li><a href="https://code.claude.com/docs/en/cross-session-messaging" target="_blank" rel="noopener noreferrer">cross-session-messaging ↗</a></li><li><a href="https://code.claude.com/docs/en/desktop" target="_blank" rel="noopener noreferrer">desktop ↗</a></li><li><a href="https://code.claude.com/docs/en/fast-mode" target="_blank" rel="noopener noreferrer">fast-mode ↗</a></li><li><a href="https://code.claude.com/docs/en/fullscreen" target="_blank" rel="noopener noreferrer">fullscreen ↗</a></li><li><a href="https://code.claude.com/docs/en/github-actions" target="_blank" rel="noopener noreferrer">github-actions ↗</a></li><li><a href="https://code.claude.com/docs/en/goal" target="_blank" rel="noopener noreferrer">goal ↗</a></li><li><a href="https://code.claude.com/docs/en/google-vertex-ai" target="_blank" rel="noopener noreferrer">google-vertex-ai ↗</a></li><li><a href="https://code.claude.com/docs/en/hooks" target="_blank" rel="noopener noreferrer">hooks ↗</a></li><li><a href="https://code.claude.com/docs/en/ide-integrations" target="_blank" rel="noopener noreferrer">ide-integrations ↗</a></li><li><a href="https://code.claude.com/docs/en/interactive-mode" target="_blank" rel="noopener noreferrer">interactive-mode ↗</a></li><li><a href="https://code.claude.com/docs/en/keybindings" target="_blank" rel="noopener noreferrer">keybindings ↗</a></li><li><a href="https://code.claude.com/docs/en/mcp" target="_blank" rel="noopener noreferrer">mcp ↗</a></li><li><a href="https://code.claude.com/docs/en/memory" target="_blank" rel="noopener noreferrer">memory ↗</a></li><li><a href="https://code.claude.com/docs/en/model-config" target="_blank" rel="noopener noreferrer">model-config ↗</a></li><li><a href="https://code.claude.com/docs/en/output-styles" target="_blank" rel="noopener noreferrer">output-styles ↗</a></li><li><a href="https://code.claude.com/docs/en/permissions" target="_blank" rel="noopener noreferrer">permissions ↗</a></li><li><a href="https://code.claude.com/docs/en/plugins/mods/create" target="_blank" rel="noopener noreferrer">create ↗</a></li><li><a href="https://code.claude.com/docs/en/plugins/overview" target="_blank" rel="noopener noreferrer">overview ↗</a></li><li><a href="https://code.claude.com/docs/en/remote-control" target="_blank" rel="noopener noreferrer">remote-control ↗</a></li><li><a href="https://code.claude.com/docs/en/routines" target="_blank" rel="noopener noreferrer">routines ↗</a></li><li><a href="https://code.claude.com/docs/en/sandboxing" target="_blank" rel="noopener noreferrer">sandboxing ↗</a></li><li><a href="https://code.claude.com/docs/en/scheduled-tasks" target="_blank" rel="noopener noreferrer">scheduled-tasks ↗</a></li><li><a href="https://code.claude.com/docs/en/sessions" target="_blank" rel="noopener noreferrer">sessions ↗</a></li><li><a href="https://code.claude.com/docs/en/settings" target="_blank" rel="noopener noreferrer">settings ↗</a></li><li><a href="https://code.claude.com/docs/en/skills" target="_blank" rel="noopener noreferrer">skills ↗</a></li><li><a href="https://code.claude.com/docs/en/slack" target="_blank" rel="noopener noreferrer">slack ↗</a></li><li><a href="https://code.claude.com/docs/en/statusline" target="_blank" rel="noopener noreferrer">statusline ↗</a></li><li><a href="https://code.claude.com/docs/en/sub-agents" target="_blank" rel="noopener noreferrer">sub-agents ↗</a></li><li><a href="https://code.claude.com/docs/en/terminal-config" target="_blank" rel="noopener noreferrer">terminal-config ↗</a></li><li><a href="https://code.claude.com/docs/en/troubleshooting" target="_blank" rel="noopener noreferrer">troubleshooting ↗</a></li><li><a href="https://code.claude.com/docs/en/ultrareview" target="_blank" rel="noopener noreferrer">ultrareview ↗</a></li><li><a href="https://code.claude.com/docs/en/voice-dictation" target="_blank" rel="noopener noreferrer">voice-dictation ↗</a></li><li><a href="https://code.claude.com/docs/en/workflows" target="_blank" rel="noopener noreferrer">workflows ↗</a></li></ul></details><p class="last-updated">2026.10.25 확인. 지금 내 환경에서 쓸 수 있는 명령은 입력창에 <code>/</code>를 적어 확인하세요.</p><a class="button secondary" href="../notes.html">← 다른 노트 보기</a></section>
-</div></div></div></main><footer class="footer"><div class="wrap"><div class="footer-top"><a class="logo" href="../index.html">emberjihyo<span>✳</span></a><div class="footer-links"><a href="../notes.html">Notes</a><a href="https://www.instagram.com/emberjihyo/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="#main">맨 위로 ↑</a></div></div><div class="footer-bottom micro"><span>© 2026 EMBERJIHYO</span><span>Notes from London · by Ember</span></div></div></footer><div id="copy-status" class="copy-status" role="status" aria-live="polite"></div><script src="./claude-code-commands.js" defer></script></body></html>
+<aside class="related-note prose" aria-label="함께 읽을 노트"><p class="section-kicker">함께 읽기</p><h2><a href="./claude-code-shortcuts.html">Claude Code 키보드 단축키도 알아두세요</a></h2><p>Esc 두 번으로 되돌리기, Ctrl+J 줄바꿈, Ctrl+S로 초안 보관하기를 상황별로 설명했어요.</p></aside></div></div></div></main><footer class="footer"><div class="wrap"><div class="footer-top"><a class="logo" href="../index.html">emberjihyo<span>✳</span></a><div class="footer-links"><a href="../notes.html">Notes</a><a href="https://www.instagram.com/emberjihyo/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="#main">맨 위로 ↑</a></div></div><div class="footer-bottom micro"><span>© 2026 EMBERJIHYO</span><span>Notes from London · by Ember</span></div></div></footer><div id="copy-status" class="copy-status" role="status" aria-live="polite"></div><script src="./claude-code-commands.js" defer></script></body></html>

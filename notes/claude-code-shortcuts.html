@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f6f8"><title>Claude Code 단축키 모음: Esc 두 번·줄바꿈·초안 보관 | emberjihyo</title><meta name="description" content="Claude Code 키보드 단축키를 상황별로 설명합니다. Esc 두 번으로 되돌리기, Ctrl+J 줄바꿈, Ctrl+S 초안 보관부터 Mac·Windows 차이와 Vim 편집 예시까지."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css"><link rel="stylesheet" href="../styles.css?v=20261025-hero"><link rel="stylesheet" href="../notes.css?v=20261026-seo"><link rel="stylesheet" href="./claude-code-shortcuts.css?v=20261026-1">
+<link rel="canonical" href="https://emberjihyo.com/notes/claude-code-shortcuts.html">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="Ember">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="emberjihyo">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="Claude Code 단축키 모음: Esc 두 번·줄바꿈·초안 보관 | emberjihyo">
+<meta property="og:description" content="Claude Code 키보드 단축키를 상황별로 설명합니다. Esc 두 번으로 되돌리기, Ctrl+J 줄바꿈, Ctrl+S 초안 보관부터 Mac·Windows 차이와 Vim 편집 예시까지.">
+<meta property="og:url" content="https://emberjihyo.com/notes/claude-code-shortcuts.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Claude Code 단축키 모음: Esc 두 번·줄바꿈·초안 보관 | emberjihyo">
+<meta name="twitter:description" content="Claude Code 키보드 단축키를 상황별로 설명합니다. Esc 두 번으로 되돌리기, Ctrl+J 줄바꿈, Ctrl+S 초안 보관부터 Mac·Windows 차이와 Vim 편집 예시까지.">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<meta property="article:published_time" content="2026-10-26">
+<meta property="article:modified_time" content="2026-10-26">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://emberjihyo.com/#website",
+      "url": "https://emberjihyo.com/",
+      "name": "emberjihyo",
+      "publisher": {
+        "@id": "https://emberjihyo.com/#ember"
+      },
+      "inLanguage": "ko"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://emberjihyo.com/#ember",
+      "name": "Ember",
+      "url": "https://emberjihyo.com/#about",
+      "jobTitle": "AI engineer",
+      "sameAs": [
+        "https://www.instagram.com/emberjihyo/"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://emberjihyo.com/notes/claude-code-shortcuts.html#webpage",
+      "url": "https://emberjihyo.com/notes/claude-code-shortcuts.html",
+      "name": "Claude Code 단축키 모음: Esc 두 번·줄바꿈·초안 보관 | emberjihyo",
+      "description": "Claude Code 키보드 단축키를 상황별로 설명합니다. Esc 두 번으로 되돌리기, Ctrl+J 줄바꿈, Ctrl+S 초안 보관부터 Mac·Windows 차이와 Vim 편집 예시까지.",
+      "inLanguage": "ko",
+      "isPartOf": {
+        "@id": "https://emberjihyo.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://emberjihyo.com/notes/claude-code-shortcuts.html#article"
+      },
+      "breadcrumb": {
+        "@id": "https://emberjihyo.com/notes/claude-code-shortcuts.html#breadcrumb"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://emberjihyo.com/notes/claude-code-shortcuts.html#article",
+      "url": "https://emberjihyo.com/notes/claude-code-shortcuts.html",
+      "headline": "클로드 단축키, 이럴 때 눌러요.",
+      "description": "Claude Code 키보드 단축키를 상황별로 설명합니다. Esc 두 번으로 되돌리기, Ctrl+J 줄바꿈, Ctrl+S 초안 보관부터 Mac·Windows 차이와 Vim 편집 예시까지.",
+      "author": {
+        "@id": "https://emberjihyo.com/#ember"
+      },
+      "publisher": {
+        "@id": "https://emberjihyo.com/#ember"
+      },
+      "datePublished": "2026-10-26",
+      "dateModified": "2026-10-26",
+      "inLanguage": "ko",
+      "articleSection": "AI at work",
+      "about": {
+        "@type": "Thing",
+        "name": "Claude Code"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://emberjihyo.com/notes/claude-code-shortcuts.html#webpage"
+      },
+      "isAccessibleForFree": true
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://emberjihyo.com/notes/claude-code-shortcuts.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Notes",
+          "item": "https://emberjihyo.com/notes.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "클로드 단축키, 이럴 때 눌러요.",
+          "item": "https://emberjihyo.com/notes/claude-code-shortcuts.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="guide-body"><a class="skip-link" href="#main">본문으로 건너뛰기</a><header class="header"><div class="wrap nav"><a class="logo" href="../index.html" aria-label="emberjihyo 홈">emberjihyo<span>✳</span></a><nav class="navlinks" aria-label="주 메뉴"><a href="../index.html#about">소개</a><a href="../index.html#explore">이야기</a><a href="../notes.html" aria-current="page">Notes</a></nav><a class="guide-back" href="../notes.html">← 모든 노트</a></div></header>
+<main id="main"><div class="wrap"><div class="guide-breadcrumb"><a href="../notes.html">Notes</a><span>/</span><span>AI at work</span></div>
+<header class="guide-hero"><div class="eyebrow micro"><i class="dot"></i>Claude Code at work</div><h1>클로드 단축키,<br><span>이럴 때 눌러요.</span></h1><p class="guide-deck">아까 걸로 돌아가고 싶은데.<br> 쓰던 요청을 보관하거나 이전 수정으로 돌아갈 때, 어떤 키를 누르면 되는지 적었어요.</p><div class="guide-byline"><span class="author-mark" aria-hidden="true">✳</span><span>글 · <a href="../#about" rel="author">Ember</a></span><span><time datetime="2026-10-26">2026.10.26</time></span><span>한국어 가이드</span></div><div class="guide-facts"><span><strong>10</strong>먼저 써볼 키</span><span><strong>Mac · Win</strong>환경별 차이</span><span><strong>Vim</strong>편집 키까지</span></div></header>
+<section class="note-answer prose" aria-labelledby="note-answer-title"><h2 id="note-answer-title">Claude Code 단축키, 뭐부터 쓰면 될까요?</h2><p><strong>줄바꿈은 <kbd>Ctrl+J</kbd>, 쓰던 요청을 잠깐 보관할 때는 <kbd>Ctrl+S</kbd>를 쓰세요.</strong> 이전 수정으로 돌아가려면 입력창을 비우고 <kbd>Esc</kbd>를 두 번 눌러 돌아갈 시점을 고르면 됩니다. 글이 남아 있을 때 Esc를 두 번 누르면 초안이 지워져요.</p></section><div class="guide-layout"><aside class="guide-sidebar" aria-label="글 목차"><div class="sidebar-inner"><p class="micro">IN THIS NOTE</p><a class="toc-intro" href="#before-start">키 표시 읽는 법</a><a class="toc-intro" href="#first-ten">먼저 써볼 10개</a><nav aria-label="상황별 단축키"><a href="#group-control"><span>01</span>멈추고, 되돌리고, 화면을 정리할 때</a><a href="#group-write"><span>02</span>요청을 길게 쓰고 다듬을 때</a><a href="#group-history"><span>03</span>이전 요청을 찾고, 다음 요청을 보낼 때</a><a href="#group-menus"><span>04</span>자동완성, 선택창, 권한 요청을 다룰 때</a><a href="#group-transcript"><span>05</span>대화 내용을 읽고 검색할 때</a><a href="#group-btw"><span>06</span>/btw로 잠깐 물어본 뒤에</a><a href="#group-models"><span>07</span>모델, 생각의 강도, 음성을 바꿀 때</a><a href="#group-agents"><span>08</span>백그라운드 작업과 여러 세션을 오갈 때</a><a href="#group-agent-list"><span>09</span>에이전트 목록에서 세션을 열고 정리할 때</a><a href="#group-diff"><span>10</span>바뀐 파일을 검토할 때</a><a href="#group-panels"><span>11</span>첨부, 설정, 플러그인, 보조 패널을 다룰 때</a><a href="#group-prefix"><span>12</span>한 글자로 여는 입력 기능</a><a href="#group-vim-move"><span>13</span>입력 방식과 이동</a><a href="#group-vim-edit"><span>14</span>지우고 고치고 붙이기</a><a href="#group-vim-object"><span>15</span>단어·따옴표·괄호 안쪽만 고치기</a><a href="#group-vim-selection"><span>16</span>선택 영역을 한꺼번에 편집하기</a></nav><a class="toc-intro" href="#key-settings">내 키로 바꾸기 · 안 될 때</a></div></aside><div class="guide-content">
+<section id="before-start" class="guide-intro prose"><p class="section-kicker">터미널에서 쓰는 Claude Code</p><h2>입력창에서 바로 쓰는 단축키</h2><p>수정을 몇 번 맡겼는데 처음 것이 더 나을 때가 있어요. 입력창을 비우고 <kbd>Esc</kbd>를 두 번 누르면 돌아갈 시점을 고를 수 있습니다. 요청을 길게 쓰던 중에 다른 걸 먼저 확인하고 싶다면 <kbd>Ctrl+S</kbd>로 쓰던 글을 잠깐 보관해두세요.</p><p>단축키는 <strong>터미널에서 실행하는 Claude Code</strong> 기준이에요. 메뉴 안에서만 쓰는 키와 Vim 편집 키도 있습니다. Claude 웹 채팅이나 데스크톱 앱 자체에서는 다르게 동작할 수 있어요.</p><div class="key-legend"><div><kbd>Ctrl+J</kbd><p><strong>+는 같이 누르기.</strong><br>Ctrl을 누른 채 J를 누르세요. Mac도 Ctrl이라고 적혀 있으면 Control 키를 씁니다.</p></div><div><kbd>Esc → Esc</kbd><p><strong>→는 순서대로 누르기.</strong><br>Esc를 누르고 뗀 뒤 한 번 더 누르세요. 화살표 키 자체를 누르라는 뜻은 아닙니다.</p></div></div><div class="reading-notes"><p><code>Ctrl+X → Ctrl+E</code>도 두 조합을 순서대로 누릅니다. 연속 키는 앞 키를 누른 뒤 3초 안에 다음 키를 누르세요. 방향키 자체는 <code>← ↑ ↓ →</code>로 표시했어요. 방향키가 섞인 조합은 설명에서 누르는 순서를 확인하세요.</p><p>Mac의 Option은 Windows·Linux의 Alt에 대응합니다. Option+B·F·D·Y·P 같은 조합은 터미널의 <strong>Option as Meta</strong> 설정이 필요해요. 한글 상태에서 키가 안 먹으면 영문 입력 상태에서도 확인해보세요.</p><p>전체 화면은 대화를 앱 안에서 스크롤하는 방식이에요. 터미널 창을 최대화한다는 뜻은 아닙니다. 일반 화면은 터미널의 스크롤 기록을 씁니다. 화면 방식과 버전에 따라 같은 키도 다르게 동작할 수 있어요.</p></div></section>
+<section id="first-ten" class="quickstart"><div class="quickstart-head"><span class="section-kicker">먼저 손에 익힐 것들</span><span class="micro">START HERE</span></div><h2>오늘은 이 10개부터</h2><p>쓰던 글을 날렸을 때나 작업을 멈추고 싶을 때부터 써보세요. 각 키를 누르면 설명으로 이동해요.</p><div class="quick-grid"><a href="#key-rewind"><span class="quick-key">Esc → Esc</span><span>아까 걸로 돌아가자</span><span aria-hidden="true">↘</span></a><a href="#key-escape"><span class="quick-key">Esc</span><span>잠깐, 거기서 멈춰</span><span aria-hidden="true">↘</span></a><a href="#key-newline"><span class="quick-key">Ctrl+J</span><span>보내지 말고 줄만 바꾸기</span><span aria-hidden="true">↘</span></a><a href="#key-stash"><span class="quick-key">Ctrl+S</span><span>이 초안 잠깐 맡아줘</span><span aria-hidden="true">↘</span></a><a href="#key-history"><span class="quick-key">Ctrl+R</span><span>지난번 그 요청 어디 있지?</span><span aria-hidden="true">↘</span></a><a href="#key-editor"><span class="quick-key">Ctrl+G</span><span>긴 요청은 익숙한 편집기에서</span><span aria-hidden="true">↘</span></a><a href="#key-undo"><span class="quick-key">Ctrl+_</span><span>방금 지운 문장 다시 살리기</span><span aria-hidden="true">↘</span></a><a href="#key-background"><span class="quick-key">Ctrl+B</span><span>이건 뒤에서 계속 돌려줘</span><span aria-hidden="true">↘</span></a><a href="#key-transcript"><span class="quick-key">Ctrl+O</span><span>방금 실제로 뭘 했는지 보기</span><span aria-hidden="true">↘</span></a><a href="#key-mode"><span class="quick-key">Shift+Tab</span><span>수정 전에 계획부터 세우자</span><span aria-hidden="true">↘</span></a></div></section>
+<section class="prose shortcut-compare"><h2>멈추기와 되돌리기는 달라요.</h2><div class="comparison-grid"><div><strong>지금 하는 일만 중단</strong><code>Esc</code><p>이미 끝난 수정은 남아요.</p></div><div><strong>이전 지점으로 돌아가기</strong><code>빈 입력창에서 Esc 두 번</code><p>복원할 시점과 대상을 골라요.</p></div><div><strong>쓰던 요청 잠깐 보관</strong><code>Ctrl+S</code><p>빈 입력창에서 다시 눌러 꺼내요.</p></div><div><strong>입력 중인 편집 취소</strong><code>Ctrl+_</code><p>방금 고친 초안을 되돌려요.</p></div></div></section>
+<section class="catalog-start" id="all-shortcuts"><p class="section-kicker">상황별로 찾기</p><h2>지금 어떤 키가 필요한가요?</h2><div class="catalog-controls"><label for="shortcut-search">단축키나 하고 싶은 일로 찾기</label><div class="search-row"><span aria-hidden="true">⌕</span><input id="shortcut-search" type="search" placeholder="예: Esc, 초안, 줄바꿈, 복사, Vim" autocomplete="off"><button type="button" id="clear-search" hidden>지우기</button></div><div class="filter-row"><div role="group" aria-label="단축키 범위"><button type="button" data-scope="all" aria-pressed="true">전체</button><button type="button" data-scope="top" aria-pressed="false">먼저 써볼 10개</button><button type="button" data-scope="vim" aria-pressed="false">Vim</button></div><span id="result-count" role="status" aria-live="polite">161개 사용 상황</span></div></div><p class="shortcut-context-note">161개는 사용 상황의 수예요. 같은 키가 화면마다 다르게 쓰이면 각각 설명했습니다.</p></section><p id="empty-results" class="empty-results" hidden>찾는 항목이 없어요. 다른 키 이름이나 상황으로 검색해보세요.</p>
+<section class="shortcut-group" id="group-control"><div class="group-heading"><span class="section-num">01</span><div><h2>멈추고, 되돌리고, 화면을 정리할 때</h2><p>이미 끝난 수정을 되돌릴 때는 되돌리기 메뉴를 열고, 진행 중인 답변만 멈출 때는 Esc를 누르세요.</p></div></div>
+<article class="shortcut-card is-top" id="key-rewind" data-top="true" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD · 먼저 써볼 키</span><a href="#key-rewind" aria-label="아까 걸로 돌아가자 바로가기">#</a></div>
+<h3>아까 걸로 돌아가자</h3><div class="key-combo"><kbd>Esc → Esc</kbd></div>
+<p>입력창이 비어 있을 때 Esc를 두 번 누르면, 돌아갈 시점을 고르는 메뉴가 열려요. 대화와 파일을 함께 되돌릴 수도 있고, 둘 중 하나만 복원하거나 대화 일부를 요약할 수도 있습니다. 파일 복원은 해당 시점 이후에 추적한 변경이 있을 때 선택할 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span>제안서 페이지를 몇 번 고쳤는데 처음 구성이 더 낫다면, 입력창을 비우고 Esc를 두 번 누르세요. 돌아갈 요청을 고른 다음 파일만 복원할지, 대화도 함께 되돌릴지 정하면 됩니다.</p>
+<p class="shortcut-tip">입력창에 글이 남아 있으면 초안을 지워요. 이 글은 ↑로 다시 꺼낼 수 있습니다. 파일은 Claude가 이 대화에서 편집한 적이 있어야 복원 대상으로 잡혀요. 그 파일을 나중에 셸 명령으로 고친 부분은 되돌릴 수 있지만, 셸 명령으로만 바꾼 파일은 그대로 남습니다. 다른 세션이나 서브에이전트의 수정도 모두 복원되는 것은 아니에요.</p></article>
+<article class="shortcut-card is-top" id="key-escape" data-top="true" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD · 먼저 써볼 키</span><a href="#key-escape" aria-label="잠깐, 거기서 멈춰 바로가기">#</a></div>
+<h3>잠깐, 거기서 멈춰</h3><div class="key-combo"><kbd>Esc</kbd></div>
+<p>답변이나 도구 실행을 도중에 멈춥니다. 이미 끝낸 수정은 남아 있어요. 창이 열려 있다면 그 창을 닫고, 권한을 묻는 중이라면 요청을 거절합니다.</p><p class="shortcut-example"><span>예를 들어</span>회의록을 통째로 번역하기 시작했는데 필요한 건 요약뿐이었다면, Esc를 누르고 “결정 사항만 뽑아줘”라고 다시 요청하세요.</p>
+<p class="shortcut-tip">대기열에 넣어둔 메시지는 이어서 전달돼요. 아직 보내지 않은 초안은 이 키로 전송되지 않습니다. 입력창 아래 작업을 선택해둔 상태라면, Esc는 그 선택부터 해제해요.</p></article>
+<article class="shortcut-card" id="key-interrupt" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-interrupt" aria-label="실행을 중단하거나 초안을 비우기 바로가기">#</a></div>
+<h3>실행을 중단하거나 초안을 비우기</h3><div class="key-combo"><kbd>Ctrl+C</kbd></div>
+<p>작업 중이면 멈추고, 작업이 없으면 쓰던 글을 비웁니다. 아무것도 실행하지 않는 상태에서 다시 누르면 Claude Code가 종료돼요.</p><p class="shortcut-example"><span>예를 들어</span>쓰던 요청을 처음부터 다시 적고 싶을 때 한 번 누르세요. 실수로 비웠다면 ↑로 가져올 수 있어요.</p>
+<p class="shortcut-tip">전체 화면에서 글을 선택해두었다면 복사로 동작할 수 있습니다. 창이 열려 있을 때는 두 번 눌러 그 창만 닫기도 하니, 첫 번째 키를 누른 뒤 화면 안내를 보세요.</p></article>
+<article class="shortcut-card" id="key-exit" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-exit" aria-label="오늘 작업은 여기까지 바로가기">#</a></div>
+<h3>오늘 작업은 여기까지</h3><div class="key-combo"><kbd>Ctrl+D</kbd></div>
+<p>빈 입력창에서 한 번 누르면 종료 안내가 나오고, 800ms 안에 다시 누르면 세션을 닫습니다.</p><p class="shortcut-example"><span>예를 들어</span>작업을 마치고 나갈 때 빈 입력창에서 Ctrl+D를 누른 뒤, 종료 안내를 보고 한 번 더 누르세요.</p>
+<p class="shortcut-tip">글이 남아 있는 입력창에서는 커서 뒤 글자를 지웁니다. 대화상자 안에서 두 번 누르면 세션 대신 그 창만 닫히는 경우도 있어요.</p></article>
+<article class="shortcut-card" id="key-kill-agents" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-kill-agents" aria-label="뒤에서 일하는 에이전트도 전부 멈추기 바로가기">#</a></div>
+<h3>뒤에서 일하는 에이전트도 전부 멈추기</h3><div class="key-combo"><kbd>Ctrl+X → Ctrl+K</kbd></div>
+<p>이 세션에서 뒤로 돌려둔 서브에이전트를 모두 멈춥니다. 아티팩트 댓글에 자동으로 답하는 기능도 이 세션이 끝날 때까지 꺼져요.</p><p class="shortcut-example"><span>예를 들어</span>여러 에이전트에 나눠 맡긴 조사의 방향이 바뀌었다면, 하나씩 찾아 멈추는 대신 이 조합을 쓰세요.</p>
+<p class="shortcut-tip">Ctrl+X 다음 Ctrl+K를 누르고, 이 조합 전체를 3초 안에 한 번 더 눌러 확인합니다. 서브에이전트의 권한 요청이 떠 있어도 사용할 수 있어요.</p></article>
+<article class="shortcut-card" id="key-redraw" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-redraw" aria-label="화면이 깨졌을 때 다시 그리기 바로가기">#</a></div>
+<h3>화면이 깨졌을 때 다시 그리기</h3><div class="key-combo"><kbd>Ctrl+L</kbd><kbd>Cmd+K</kbd></div>
+<p>글자가 겹치거나 화면 일부가 비었을 때 화면을 다시 그려요. 쓰던 글과 대화 기록은 남아 있습니다.</p><p class="shortcut-example"><span>예를 들어</span>터미널 창을 줄였다 넓힌 뒤 글이 엉켜 보이면 Ctrl+L을 눌러보세요.</p>
+<p class="shortcut-tip">Cmd+K도 Claude Code에 전달되면 같은 동작을 합니다. iTerm2와 Mac 기본 터미널은 자체적으로 화면을 지우지만, Claude가 감지해 대화를 다시 그려요. 이전 버전의 전체 화면에서는 화면을 비우는 동작이었으므로 버전 차이가 있습니다.</p></article>
+<article class="shortcut-card" id="key-checklist" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-checklist" aria-label="지금 할 일이 어디까지 끝났지? 바로가기">#</a></div>
+<h3>지금 할 일이 어디까지 끝났지?</h3><div class="key-combo"><kbd>Ctrl+T</kbd></div>
+<p>Claude의 작업 체크리스트를 보이거나 숨깁니다.</p><p class="shortcut-example"><span>예를 들어</span>자료를 읽은 뒤 표를 만들기로 했다면, 체크리스트를 열어 어느 단계까지 끝났는지 보세요.</p>
+<p class="shortcut-tip">실행 중인 셸과 서브에이전트는 /tasks에서 확인해요. /theme 메뉴와 에이전트 목록에서는 Ctrl+T가 다른 기능을 합니다.</p></article>
+<article class="shortcut-card" id="key-suspend" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-suspend" aria-label="잠시 터미널로 나갔다 오기 바로가기">#</a></div>
+<h3>잠시 터미널로 나갔다 오기</h3><div class="key-combo"><kbd>Ctrl+Z</kbd></div>
+<p>macOS와 Linux 같은 Unix 환경에서 Claude Code 프로세스를 일시 정지하고 셸로 돌아갑니다. 셸에서 <code>fg</code>를 실행하면 다시 이어집니다.</p><p class="shortcut-example"><span>예를 들어</span>같은 터미널에서 다른 명령을 잠깐 실행하려면 Ctrl+Z로 나왔다가, 끝난 뒤 <code>fg</code>를 입력해 돌아오세요.</p>
+<p class="shortcut-tip">macOS·Linux 등 Unix 환경에서 쓰는 키예요. 뒤에서 작업을 계속 돌리고 싶다면 Ctrl+B를 쓰세요.</p></article>
+<article class="shortcut-card" id="key-help" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-help" aria-label="단축키가 기억 안 나면 바로가기">#</a></div>
+<h3>단축키가 기억 안 나면</h3><div class="key-combo"><kbd>?</kbd></div>
+<p>빈 입력창에서 ?를 누르면 단축키 도움말을 열거나 닫습니다.</p><p class="shortcut-example"><span>예를 들어</span>빈 입력창에서 ?를 눌러 지금 쓸 수 있는 키부터 확인하세요.</p>
+<p class="shortcut-tip">글을 쓰던 중이라면 ?가 그대로 입력됩니다. 도움말은 Esc로 닫을 수 있어요.</p></article>
+</section>
+<section class="shortcut-group" id="group-write"><div class="group-heading"><span class="section-num">02</span><div><h2>요청을 길게 쓰고 다듬을 때</h2><p>엔터를 누르면 전송될까 봐 긴 요청을 다른 메모장에 먼저 쓰기도 하죠. Ctrl+J로 줄을 바꾸거나, Ctrl+G로 익숙한 편집기를 열 수 있어요.</p></div></div>
+<article class="shortcut-card is-top" id="key-newline" data-top="true" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD · 먼저 써볼 키</span><a href="#key-newline" aria-label="보내지 말고 줄만 바꾸기 바로가기">#</a></div>
+<h3>보내지 말고 줄만 바꾸기</h3><div class="key-combo"><kbd>Ctrl+J</kbd></div>
+<p>요청을 보내지 않고 줄을 바꿔요. 터미널에 따로 설정할 필요가 없어, 줄바꿈 키 하나만 기억한다면 이걸 쓰면 됩니다.</p><p class="shortcut-example"><span>예를 들어</span>“아래 회의록을 정리해줘”를 적고 Ctrl+J로 내려가세요. 다음 줄에 “담당자별 할 일도 따로 모아줘”처럼 조건을 덧붙이면 돼요.</p>
+</article>
+<article class="shortcut-card" id="key-newline-shift" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-newline-shift" aria-label="채팅창처럼 줄바꿈하기 바로가기">#</a></div>
+<h3>채팅창처럼 줄바꿈하기</h3><div class="key-combo"><kbd>Shift+Enter</kbd></div>
+<p>iTerm2, WezTerm, Ghostty, Kitty, Warp, Apple Terminal, Windows Terminal에서는 바로 줄바꿈할 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span>긴 요청을 조건별로 나눠 적을 때 Shift+Enter로 줄을 바꾸세요.</p>
+<p class="shortcut-tip">그 밖의 터미널은 /terminal-setup 같은 설정이 필요할 수 있어요. 줄바꿈 대신 전송된다면 Ctrl+J를 쓰면 됩니다.</p></article>
+<article class="shortcut-card" id="key-newline-option" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-newline-option" aria-label="Mac에서 Option으로 줄바꿈 바로가기">#</a></div>
+<h3>Mac에서 Option으로 줄바꿈</h3><div class="key-combo"><kbd>Option+Enter</kbd></div>
+<p>터미널에서 Option을 Meta 키로 쓰도록 설정하면 Option+Enter로 줄바꿈합니다.</p><p class="shortcut-example"><span>예를 들어</span>Mac에서 Option 키 조합을 쓰고 있다면 이 키로 요청의 문단을 나눌 수 있어요.</p>
+<p class="shortcut-tip">터미널의 Option as Meta를 먼저 켜두어야 합니다.</p></article>
+<article class="shortcut-card" id="key-newline-backslash" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-newline-backslash" aria-label="설정이 안 돼도 줄바꿈하기 바로가기">#</a></div>
+<h3>설정이 안 돼도 줄바꿈하기</h3><div class="key-combo"><kbd>\ → Enter</kbd></div>
+<p>역슬래시를 하나 적은 다음 Enter를 누르면 줄이 바뀝니다. 두 키는 차례로 누르세요.</p><p class="shortcut-example"><span>예를 들어</span>처음 쓰는 터미널에서 Shift+Enter가 안 되면 <code>\</code>를 적고 Enter를 눌러보세요.</p>
+<p class="shortcut-tip">코드나 로그처럼 이미 여러 줄인 글은 그대로 붙여넣어도 됩니다.</p></article>
+<article class="shortcut-card is-top" id="key-stash" data-top="true" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD · 먼저 써볼 키</span><a href="#key-stash" aria-label="이 초안 잠깐 맡아줘 바로가기">#</a></div>
+<h3>이 초안 잠깐 맡아줘</h3><div class="key-combo"><kbd>Ctrl+S</kbd></div>
+<p>쓰던 요청을 잠깐 보관하고 입력창을 비워요. 빈 입력창에서 다시 누르면 글뿐 아니라 커서 위치와 붙여넣은 내용도 돌아옵니다.</p><p class="shortcut-example"><span>예를 들어</span>제안서 요청을 거의 다 썼는데 /usage부터 확인하고 싶다면 Ctrl+S를 누르세요. 확인을 마치고 빈 입력창에서 다시 누르면 쓰던 요청이 돌아와요.</p>
+<p class="shortcut-tip"><code>!</code>로 쓰던 셸 명령도 원래 입력 모드로 돌아옵니다. 기록 검색 창에서는 Ctrl+S가 검색 범위를 바꾸는 키예요.</p></article>
+<article class="shortcut-card is-top" id="key-editor" data-top="true" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD · 먼저 써볼 키</span><a href="#key-editor" aria-label="긴 요청은 익숙한 편집기에서 바로가기">#</a></div>
+<h3>긴 요청은 익숙한 편집기에서</h3><div class="key-combo"><kbd>Ctrl+G</kbd><kbd>Ctrl+X → Ctrl+E</kbd></div>
+<p>긴 요청을 기본 외부 편집기로 열어요. Claude가 물어본 내용에 직접 답을 쓰는 칸에서도 쓸 수 있습니다. 편집을 마치면 저장하고 돌아와 보내세요.</p><p class="shortcut-example"><span>예를 들어</span>고객사 브리프가 길어져 입력창에서 문단을 옮기기 불편하다면 Ctrl+G로 여세요.</p>
+<p class="shortcut-tip">/config에서 Show last response in external editor를 켜면 직전 답변도 # 주석으로 함께 보여요. 저장할 때 이 주석은 빠집니다.</p></article>
+<article class="shortcut-card is-top" id="key-undo" data-top="true" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD · 먼저 써볼 키</span><a href="#key-undo" aria-label="방금 지운 문장 다시 살리기 바로가기">#</a></div>
+<h3>방금 지운 문장 다시 살리기</h3><div class="key-combo"><kbd>Ctrl+_</kbd><kbd>Ctrl+Shift+-</kbd></div>
+<p>입력창에서 방금 한 편집을 취소합니다. 이전 글과 커서 위치로 돌아가요.</p><p class="shortcut-example"><span>예를 들어</span>조건 한 줄을 지웠다가 다시 필요해졌을 때 쓰세요.</p>
+<p class="shortcut-tip">Claude가 고친 파일을 복원하려면 빈 입력창에서 Esc를 두 번 눌러야 해요.</p></article>
+<article class="shortcut-card" id="key-line-edge" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-line-edge" aria-label="줄의 처음과 끝으로 바로가기">#</a></div>
+<h3>줄의 처음과 끝으로</h3><div class="key-combo"><kbd>Ctrl+A</kbd><kbd>Ctrl+E</kbd></div>
+<p>Ctrl+A는 현재 줄 처음, Ctrl+E는 현재 줄 끝으로 이동합니다. 여러 줄 요청에서는 커서가 있는 줄을 기준으로 움직여요.</p><p class="shortcut-example"><span>예를 들어</span>문장 앞에 “한국어로”를 붙이려면 Ctrl+A, 뒤에 조건을 더하려면 Ctrl+E를 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-kill-end" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-kill-end" aria-label="이 뒤는 다시 쓸게 바로가기">#</a></div>
+<h3>이 뒤는 다시 쓸게</h3><div class="key-combo"><kbd>Ctrl+K</kbd></div>
+<p>커서 뒤부터 줄 끝까지 지웁니다. 지운 내용은 나중에 붙여넣을 수 있도록 보관해요.</p><p class="shortcut-example"><span>예를 들어</span>“이메일을 길고 격식 있게…”라고 쓰다가 표현을 바꾸고 싶으면, “길고” 앞에서 Ctrl+K를 누르고 새 조건을 적으세요.</p>
+</article>
+<article class="shortcut-card" id="key-kill-start" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-kill-start" aria-label="이 앞부분은 지우자 바로가기">#</a></div>
+<h3>이 앞부분은 지우자</h3><div class="key-combo"><kbd>Ctrl+U</kbd><kbd>Cmd+Backspace (Mac 일부 터미널)</kbd></div>
+<p>커서부터 줄 처음까지 지웁니다. 여러 줄에서는 반복해서 앞줄까지 지울 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span>붙여넣은 요청의 앞부분을 걷어내고 싶으면, 남길 문장 바로 앞에 커서를 두고 Ctrl+U를 누르세요.</p>
+<p class="shortcut-tip">Mac의 iTerm2와 Terminal.app 등은 Cmd+Backspace도 이 기능으로 연결합니다.</p></article>
+<article class="shortcut-card" id="key-kill-space-word" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-kill-space-word" aria-label="방금 쓴 덩어리 하나 지우기 바로가기">#</a></div>
+<h3>방금 쓴 덩어리 하나 지우기</h3><div class="key-combo"><kbd>Ctrl+W</kbd></div>
+<p>커서 앞에서 공백을 만날 때까지 지워요. 공백이 없는 파일 경로나 <code>--flag=value</code>는 한 번에 지워집니다.</p><p class="shortcut-example"><span>예를 들어</span><code>reports/2026/october.csv</code>를 잘못 썼다면 경로 끝에서 Ctrl+W로 지우고 다시 적으세요.</p>
+</article>
+<article class="shortcut-card" id="key-kill-word" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-kill-word" aria-label="앞의 단어만 지우기 바로가기">#</a></div>
+<h3>앞의 단어만 지우기</h3><div class="key-combo"><kbd>Option+Delete (Mac)</kbd><kbd>Ctrl+Backspace (Windows)</kbd></div>
+<p>커서 앞의 단어를 지웁니다. 점·밑줄·슬래시에서도 단어를 나누기 때문에 파일 경로를 조금씩 고칠 때 쓸 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span><code>reports/sales.csv</code>의 끝에서 누르면 확장자 쪽부터 단어 단위로 지울 수 있어요.</p>
+<p class="shortcut-tip">이 단어 구분 방식은 v2.1.261 이상 기준입니다.</p></article>
+<article class="shortcut-card" id="key-yank" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-yank" aria-label="지운 글 다시 붙여넣기 바로가기">#</a></div>
+<h3>지운 글 다시 붙여넣기</h3><div class="key-combo"><kbd>Ctrl+Y</kbd></div>
+<p>Ctrl+K, Ctrl+U, Ctrl+W 같은 단축키로 지운 글을 다시 붙입니다.</p><p class="shortcut-example"><span>예를 들어</span>Ctrl+K로 지운 조건이 다시 필요해졌다면 Ctrl+Y로 붙이세요.</p>
+<p class="shortcut-tip">복사해둔 클립보드 대신, 단축키로 지웠던 글을 가져옵니다.</p></article>
+<article class="shortcut-card" id="key-yank-cycle" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-yank-cycle" aria-label="그보다 전에 지운 글 찾기 바로가기">#</a></div>
+<h3>그보다 전에 지운 글 찾기</h3><div class="key-combo"><kbd>Alt+Y (Mac: Option+Y)</kbd></div>
+<p>Ctrl+Y로 붙인 직후 누르면 더 이전에 지운 글로 바꿔가며 찾을 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span>Ctrl+Y로 붙여보니 찾던 문장이 아니면, Alt+Y를 눌러 더 전에 지운 내용을 찾아보세요.</p>
+<p class="shortcut-tip">Mac에서는 Option as Meta 설정이 필요합니다.</p></article>
+<article class="shortcut-card" id="key-word-move" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-word-move" aria-label="글자 말고 단어 단위로 이동 바로가기">#</a></div>
+<h3>글자 말고 단어 단위로 이동</h3><div class="key-combo"><kbd>Alt+B</kbd><kbd>Alt+F</kbd><kbd>Option+B (Mac)</kbd><kbd>Option+F (Mac)</kbd></div>
+<p>Alt+B는 이전 단어로, Alt+F는 현재 단어나 다음 단어의 끝으로 커서를 옮깁니다.</p><p class="shortcut-example"><span>예를 들어</span>긴 요청의 앞쪽 조건을 고칠 때 Alt+B로 단어씩 거슬러 올라가세요.</p>
+<p class="shortcut-tip">Mac에서는 Option as Meta 설정이 필요해요. 점, 밑줄, 슬래시도 경계로 봅니다.</p></article>
+<article class="shortcut-card" id="key-kill-word-end" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-kill-word-end" aria-label="단어 뒷부분만 지우기 바로가기">#</a></div>
+<h3>단어 뒷부분만 지우기</h3><div class="key-combo"><kbd>Alt+D (Mac: Option+D)</kbd></div>
+<p>현재 단어 끝까지 지웁니다. 단어 사이에 있으면 다음 단어 끝까지 지우고, Ctrl+Y로 다시 붙일 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span>파일명 중 커서 뒤의 단어를 지우고 새로 적을 때 쓰세요.</p>
+<p class="shortcut-tip">Mac에서는 Option as Meta 설정이 필요합니다.</p></article>
+<article class="shortcut-card" id="key-image" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-image" aria-label="화면 캡처를 바로 붙이기 바로가기">#</a></div>
+<h3>화면 캡처를 바로 붙이기</h3><div class="key-combo"><kbd>Ctrl+V</kbd><kbd>Cmd+V (iTerm2)</kbd><kbd>Alt+V (Windows·WSL)</kbd></div>
+<p>클립보드에 있는 이미지를 붙입니다. 입력창에 [Image #1] 같은 첨부 표시가 생겨요.</p><p class="shortcut-example"><span>예를 들어</span>오류 화면을 캡처해 붙이고 “이 오류가 왜 나는지 설명해줘”라고 요청하세요.</p>
+<p class="shortcut-tip">WSL은 Ctrl+V와 Alt+V 모두 연결돼 있어요. 터미널이 Ctrl+V를 가로채면 Alt+V를 쓰세요. 일반 텍스트 붙여넣기는 터미널 설정을 따릅니다.</p></article>
+</section>
+<section class="shortcut-group" id="group-history"><div class="group-heading"><span class="section-num">03</span><div><h2>이전 요청을 찾고, 다음 요청을 보낼 때</h2><p>지난번에 썼던 메일 요청은 기록에서 찾아 날짜만 고쳐 보낼 수 있어요. Claude가 일하는 동안 생각난 조건은 다음 메시지로 넣어두면 됩니다.</p></div></div>
+<article class="shortcut-card is-top" id="key-history" data-top="true" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD · 먼저 써볼 키</span><a href="#key-history" aria-label="지난번 그 요청 어디 있지? 바로가기">#</a></div>
+<h3>지난번 그 요청 어디 있지?</h3><div class="key-combo"><kbd>Ctrl+R</kbd></div>
+<p>예전에 보낸 요청과 명령을 찾습니다. 누른 뒤 기억나는 단어를 입력하면 돼요.</p><p class="shortcut-example"><span>예를 들어</span>지난주에 쓴 주간보고 요청을 재사용하고 싶다면 Ctrl+R을 누르고 “주간보고”를 찾아보세요.</p>
+<p class="shortcut-tip">검색 결과에서 Enter를 누를 때는 화면 방식에 따라 바로 실행될 수도, 입력창으로 가져오기만 할 수도 있어요.</p></article>
+<article class="shortcut-card" id="key-history-arrows" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-history-arrows" aria-label="이전에 쓴 요청 다시 꺼내기 바로가기">#</a></div>
+<h3>이전에 쓴 요청 다시 꺼내기</h3><div class="key-combo"><kbd>↑</kbd><kbd>↓</kbd><kbd>Ctrl+P</kbd><kbd>Ctrl+N</kbd></div>
+<p>↑·Ctrl+P는 이전 기록, ↓·Ctrl+N은 다음 기록으로 갑니다. 글이 여러 줄이면 먼저 입력창 안에서 커서를 움직여요.</p><p class="shortcut-example"><span>예를 들어</span>방금 보낸 요청에서 날짜만 바꾸려면 빈 입력창에서 ↑로 불러오세요.</p>
+<p class="shortcut-tip">여러 줄 입력에서는 커서가 맨 위나 맨 아래 줄에 닿아야 기록으로 넘어가요. 보낼 메시지가 대기 중이면 첫 줄의 ↑는 그 메시지부터 되가져옵니다.</p></article>
+<article class="shortcut-card" id="key-history-classic" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-history-classic" aria-label="일반 화면의 기록 검색 바로가기">#</a></div>
+<h3>일반 화면의 기록 검색</h3><div class="key-combo"><kbd>Ctrl+R</kbd><kbd>Tab</kbd><kbd>Esc</kbd><kbd>Enter</kbd><kbd>Ctrl+C</kbd></div>
+<p>Ctrl+R은 더 오래된 일치 항목으로, Tab이나 Esc는 선택한 글을 입력창으로 가져옵니다. Enter는 선택한 요청을 바로 실행하고 Ctrl+C는 검색을 취소합니다.</p><p class="shortcut-example"><span>예를 들어</span>예전 요청을 찾았어도 날짜를 고쳐야 한다면 Tab으로 가져오세요. Enter를 누르면 그 내용으로 바로 실행합니다.</p>
+<p class="shortcut-tip">검색어가 비었을 때 Backspace를 눌러도 취소돼요. 검색 범위는 모든 프로젝트의 요청 기록입니다.</p></article>
+<article class="shortcut-card" id="key-history-fullscreen" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-history-fullscreen" aria-label="전체 화면의 기록 검색 바로가기">#</a></div>
+<h3>전체 화면의 기록 검색</h3><div class="key-combo"><kbd>↑</kbd><kbd>↓</kbd><kbd>Ctrl+S</kbd><kbd>Enter</kbd><kbd>Tab</kbd><kbd>Esc</kbd></div>
+<p>↑↓로 결과를 고르고 Ctrl+S로 현재 세션, 프로젝트, 전체 기록 범위를 바꿉니다. Enter나 Tab은 글을 입력창에 넣기만 하고, Esc는 취소해요.</p><p class="shortcut-example"><span>예를 들어</span>현재 프로젝트에서 찾던 요청이 안 보이면 Ctrl+S로 전체 기록까지 넓혀보세요.</p>
+<p class="shortcut-tip">이 화면에서는 Enter로 가져온 요청을 수정한 뒤, 입력창에서 다시 보내면 됩니다.</p></article>
+<article class="shortcut-card" id="key-submit" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-submit" aria-label="요청 보내기, 작업 중이면 줄 세우기 바로가기">#</a></div>
+<h3>요청 보내기, 작업 중이면 줄 세우기</h3><div class="key-combo"><kbd>Enter</kbd></div>
+<p>Claude가 작업 중이면 적은 요청을 대기열에 넣고, 작업 중이 아니면 바로 보냅니다.</p><p class="shortcut-example"><span>예를 들어</span>자료를 읽는 동안 “표의 금액은 원 단위로 표시해줘”를 적고 Enter를 누르세요.</p>
+<p class="shortcut-tip">일반 메시지는 실행 중인 도구가 끝나면 같은 차례 안에서 읽힐 수 있어요. 대부분의 명령과 셸 명령은 그 차례가 끝난 뒤 실행하지만, /model·/effort·/fast처럼 바로 실행하는 명령도 있습니다. 자동완성 후보가 떠 있을 때도 초안을 그대로 보내려면 Ctrl+X 다음 Enter를 쓰세요.</p></article>
+<article class="shortcut-card" id="key-queue" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-queue" aria-label="자동완성이 떠 있어도 요청 대기시키기 바로가기">#</a></div>
+<h3>자동완성이 떠 있어도 요청 대기시키기</h3><div class="key-combo"><kbd>Ctrl+X → Enter</kbd></div>
+<p>현재 작업을 끊지 않고 다음 요청을 보내둡니다. 자동완성 후보가 선택돼 있어도 입력한 초안을 그대로 보낼 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span>파일 자동완성 메뉴가 떠 있지만 지금 적은 문장 전체를 보내려면, Ctrl+X 다음 Enter를 누르세요.</p>
+<p class="shortcut-tip">v2.1.247 이상에서 쓸 수 있습니다.</p></article>
+<article class="shortcut-card" id="key-send-now" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-send-now" aria-label="기다리지 말고 이 조건부터 봐줘 바로가기">#</a></div>
+<h3>기다리지 말고 이 조건부터 봐줘</h3><div class="key-combo"><kbd>Ctrl+Enter</kbd><kbd>Ctrl+X → Ctrl+S</kbd></div>
+<p>대기 중인 메시지부터 바로 보내고, 쓰던 초안이 있으면 그 뒤에 함께 넣습니다. 진행 중인 셸 작업이나 에이전트처럼 백그라운드로 옮길 수 있는 일은 계속 돌리고, 답변 작성처럼 옮길 수 없는 일은 중단해요.</p><p class="shortcut-example"><span>예를 들어</span>테스트가 오래 걸리는데 확인할 내용이 바뀌었다면 “그 전에 로그인 오류부터 봐줘”를 적고 누르세요.</p>
+<p class="shortcut-tip">키는 v2.1.275부터 지원하며, 작업을 백그라운드로 이어가는 동작은 v2.1.281부터입니다. 그 전에는 현재 차례를 중단했어요. Ctrl+Enter가 그냥 Enter로 전달되면 Ctrl+X 다음 Ctrl+S를 쓰세요. <code>!</code> 셸 모드에서는 명령을 대기시키기만 하고, 대기열 앞에 셸 명령이 있으면 현재 차례를 중단합니다.</p></article>
+<article class="shortcut-card" id="key-recover-queue" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-recover-queue" aria-label="아직 보내기 전이면 다시 고치자 바로가기">#</a></div>
+<h3>아직 보내기 전이면 다시 고치자</h3><div class="key-combo"><kbd>↑ (입력창 첫 줄)</kbd></div>
+<p>첫 줄에서 ↑를 누르면 대기 중인 메시지와 명령을 입력창으로 가져와요. 쓰던 글이 있다면 그 앞에 한 줄씩 붙습니다.</p><p class="shortcut-example"><span>예를 들어</span>금액을 “원 단위”로 적어야 하는데 “만원 단위”로 써뒀다면, ↑로 가져와 고친 뒤 다시 보내세요.</p>
+<p class="shortcut-tip">셸 명령은 입력창이 비어 있고 다른 대기 항목이 없을 때만 회수됩니다. 회수한 여러 메시지를 다시 보내면 하나의 요청이 돼요.</p></article>
+<article class="shortcut-card" id="key-suggestion" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-suggestion" aria-label="회색으로 보이는 다음 요청 가져오기 바로가기">#</a></div>
+<h3>회색으로 보이는 다음 요청 가져오기</h3><div class="key-combo"><kbd>Tab</kbd><kbd>→</kbd></div>
+<p>Claude가 제안한 다음 요청을 입력창으로 가져옵니다. 내용을 확인한 뒤 Enter로 보내세요.</p><p class="shortcut-example"><span>예를 들어</span>회색 제안이 하려던 일과 맞으면 Tab으로 가져온 뒤, 필요한 조건을 더 적고 보내세요.</p>
+<p class="shortcut-tip">다른 글을 입력하면 제안은 사라집니다.</p></article>
+</section>
+<section class="shortcut-group" id="group-menus"><div class="group-heading"><span class="section-num">04</span><div><h2>자동완성, 선택창, 권한 요청을 다룰 때</h2><p>Tab은 입력창에서 자동완성을 넣는 키예요. 권한을 묻는 창에서는 선택한 답변에 의견을 붙일 수 있습니다.</p></div></div>
+<article class="shortcut-card" id="key-autocomplete" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-autocomplete" aria-label="자동완성 후보 고르기 바로가기">#</a></div>
+<h3>자동완성 후보 고르기</h3><div class="key-combo"><kbd>↑</kbd><kbd>↓</kbd><kbd>Tab</kbd><kbd>Esc</kbd></div>
+<p>↑↓로 후보를 고르고 Tab으로 입력합니다. 메뉴만 닫으려면 Esc를 누르세요.</p><p class="shortcut-example"><span>예를 들어</span><code>@reports/</code>를 적고 원하는 파일을 골라 Tab으로 넣으세요.</p>
+</article>
+<article class="shortcut-card is-top" id="key-mode" data-top="true" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD · 먼저 써볼 키</span><a href="#key-mode" aria-label="수정 전에 계획부터 세우자 바로가기">#</a></div>
+<h3>수정 전에 계획부터 세우자</h3><div class="key-combo"><kbd>Shift+Tab</kbd><kbd>Alt+M (Windows 일부 환경)</kbd></div>
+<p>입력창에서 권한 모드를 차례로 바꿉니다. 기본 모드(Manual), 편집 허용, 계획 모드 순서이고, 쓸 수 있는 환경에서는 권한 확인 생략과 자동 모드가 이어져요. 자동 모드에서는 한 번 누르면 기본 모드로 돌아옵니다.</p><p class="shortcut-example"><span>예를 들어</span>Claude에게 파일을 고치기 전에 계획부터 보여달라고 하고 싶다면, Plan 표시가 나올 때까지 눌러보세요.</p>
+<p class="shortcut-tip">Windows에서 VT 입력 모드를 켜지 못하는 실행 환경은 Alt+M을 씁니다. 파일 권한 창이 열려 있을 때는 의견 칸을 닫거나 세션 허용 항목을 고르는 키로 바뀌어요.</p></article>
+<article class="shortcut-card" id="key-confirm" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-confirm" aria-label="승인할지 거절할지 고르기 바로가기">#</a></div>
+<h3>승인할지 거절할지 고르기</h3><div class="key-combo"><kbd>↑</kbd><kbd>↓</kbd><kbd>Enter</kbd><kbd>Esc</kbd></div>
+<p>↑↓로 선택지를 옮기고 Enter로 확인합니다. Esc는 거절하거나 창을 닫아요.</p><p class="shortcut-example"><span>예를 들어</span>어느 파일을 고치려는지 읽은 뒤 허용할 항목에서 Enter를 누르세요. 진행하지 않으려면 Esc를 누르면 됩니다.</p>
+<p class="shortcut-tip">v2.1.280부터 y/n은 공통 기본 키에서 빠졌어요. 다만 예전에 만든 개인 설정에 남아 있거나, 화면이 직접 y/n을 안내하는 경우에는 사용할 수 있습니다.</p></article>
+<article class="shortcut-card" id="key-permission-comment" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-permission-comment" aria-label="허용하되 조건을 붙이고 싶다면 바로가기">#</a></div>
+<h3>허용하되 조건을 붙이고 싶다면</h3><div class="key-combo"><kbd>Tab</kbd></div>
+<p>대부분의 권한 요청에서 Yes 또는 No에 초점을 둔 채 Tab을 누르면 그 선택지에 의견을 적는 칸이 열립니다. 다시 누르면 닫혀요.</p><p class="shortcut-example"><span>예를 들어</span>파일 수정을 허용하면서 “원본 CSV는 수정하지 마”라는 조건도 주고 싶다면, Yes에서 Tab을 눌러 적으세요.</p>
+<p class="shortcut-tip">/fast 대화상자에서는 Tab이 빠른 모드를 켜고 끄는 키로 쓰입니다.</p></article>
+<article class="shortcut-card" id="key-permission-session" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-permission-session" aria-label="파일 권한 창에서 한 단계 바꾸기 바로가기">#</a></div>
+<h3>파일 권한 창에서 한 단계 바꾸기</h3><div class="key-combo"><kbd>Shift+Tab</kbd><kbd>Alt+M (Windows 일부 환경)</kbd></div>
+<p>의견을 적는 칸이 열려 있으면 닫아요. 그 칸이 닫혀 있고 “이번 세션 동안 허용” 선택지가 있으면 해당 항목으로 옮깁니다.</p><p class="shortcut-example"><span>예를 들어</span>같은 종류의 파일 수정을 계속 허용해도 될 때, 세션 허용 항목이 있는지 보고 선택하세요.</p>
+<p class="shortcut-tip">입력창에서 이 키를 누르면 권한 모드가 바뀝니다.</p></article>
+<article class="shortcut-card" id="key-toggle" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-toggle" aria-label="체크할 항목 켜고 끄기 바로가기">#</a></div>
+<h3>체크할 항목 켜고 끄기</h3><div class="key-combo"><kbd>Space</kbd></div>
+<p>확인 창에서 현재 항목의 선택 상태를 바꿉니다.</p><p class="shortcut-example"><span>예를 들어</span>여러 항목을 고르는 창에서 필요한 항목에만 체크하세요.</p>
+<p class="shortcut-tip">문자 입력칸 안에서는 공백을 입력합니다.</p></article>
+<article class="shortcut-card" id="key-tabs" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-tabs" aria-label="메뉴의 옆 탭으로 이동 바로가기">#</a></div>
+<h3>메뉴의 옆 탭으로 이동</h3><div class="key-combo"><kbd>Tab</kbd><kbd>→</kbd><kbd>Shift+Tab</kbd><kbd>←</kbd></div>
+<p>탭 줄에 초점이 있으면 Tab·→는 다음 탭, Shift+Tab·←는 이전 탭으로 이동합니다. ↑↓로 탭 줄과 내용 사이를 오갈 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span>/help에서 다른 탭을 보고 싶으면 탭 줄로 이동해 →를 누르세요.</p>
+<p class="shortcut-tip">목록은 그 목록에 초점이 있을 때 키를 받습니다. 일부 창은 탭 내용 안에서도 탭 전환이 돼요.</p></article>
+<article class="shortcut-card" id="key-select" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-select" aria-label="목록에서 한 칸씩 고르기 바로가기">#</a></div>
+<h3>목록에서 한 칸씩 고르기</h3><div class="key-combo"><kbd>↓</kbd><kbd>j</kbd><kbd>Ctrl+N</kbd><kbd>↑</kbd><kbd>k</kbd><kbd>Ctrl+P</kbd></div>
+<p>↓·j·Ctrl+N은 다음 항목, ↑·k·Ctrl+P는 이전 항목으로 갑니다. 되돌리기 메뉴에서 돌아갈 메시지를 고를 때도 쓸 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span>Esc 두 번으로 연 되돌리기 메뉴에서 돌아갈 메시지를 고르세요.</p>
+<p class="shortcut-tip">j와 k는 Shift 없이 눌러요.</p></article>
+<article class="shortcut-card" id="key-select-page" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-select-page" aria-label="긴 목록의 위아래로 빠르게 바로가기">#</a></div>
+<h3>긴 목록의 위아래로 빠르게</h3><div class="key-combo"><kbd>PageUp</kbd><kbd>PageDown</kbd><kbd>Home</kbd><kbd>End</kbd></div>
+<p>PageUp·PageDown은 한 페이지씩, Home·End는 처음과 마지막 항목으로 이동합니다. Enter는 선택, Esc는 취소예요.</p><p class="shortcut-example"><span>예를 들어</span>/skills나 /mcp 항목이 길게 나오면 PageDown으로 넘기고, 맨 앞부터 다시 보고 싶을 때 Home을 누르세요.</p>
+<p class="shortcut-tip">MacBook은 보통 Fn+↑↓가 PageUp·PageDown, Fn+←→가 Home·End입니다.</p></article>
+</section>
+<section class="shortcut-group" id="group-transcript"><div class="group-heading"><span class="section-num">05</span><div><h2>대화 내용을 읽고 검색할 때</h2><p>Ctrl+R은 내가 보낸 요청을 찾는 키예요. Claude의 답변이나 도구 결과까지 찾으려면 대화 상세 보기를 여세요.</p></div></div>
+<article class="shortcut-card is-top" id="key-transcript" data-top="true" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD · 먼저 써볼 키</span><a href="#key-transcript" aria-label="방금 실제로 뭘 했는지 보기 바로가기">#</a></div>
+<h3>방금 실제로 뭘 했는지 보기</h3><div class="key-combo"><kbd>Ctrl+O</kbd></div>
+<p>대화 상세 보기를 열거나 닫아요. Claude가 쓴 도구와 실행 내용, 답변마다 붙는 시간과 모델을 확인할 수 있습니다.</p><p class="shortcut-example"><span>예를 들어</span>“파일을 고쳤다”는 답변을 받았을 때 Ctrl+O를 눌러 실제 편집 내용을 살펴보세요.</p>
+</article>
+<article class="shortcut-card" id="key-transcript-help" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-transcript-help" aria-label="상세 보기에서 쓸 키 확인 바로가기">#</a></div>
+<h3>상세 보기에서 쓸 키 확인</h3><div class="key-combo"><kbd>?</kbd></div>
+<p>전체 화면의 대화 상세 보기에서 단축키 도움말을 열거나 닫습니다.</p><p class="shortcut-example"><span>예를 들어</span>대화 상세 보기에서 쓸 키가 생각나지 않으면 ?를 누르세요. 입력창과는 키 구성이 다릅니다.</p>
+</article>
+<article class="shortcut-card" id="key-transcript-search" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-transcript-search" aria-label="답변 속 표현까지 검색하기 바로가기">#</a></div>
+<h3>답변 속 표현까지 검색하기</h3><div class="key-combo"><kbd>/ → 검색어 → Enter</kbd><kbd>Esc</kbd></div>
+<p>전체 화면 상세 보기에서 /로 검색창을 열고 검색어를 적습니다. Enter로 확정하고, Esc로 취소하면 원래 보던 위치로 돌아가요.</p><p class="shortcut-example"><span>예를 들어</span>앞선 답변의 “환불 정책” 설명을 찾으려면 Ctrl+O로 들어가 /를 누르고 검색하세요.</p>
+</article>
+<article class="shortcut-card" id="key-transcript-next" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-transcript-next" aria-label="같은 단어가 나온 다음 위치로 바로가기">#</a></div>
+<h3>같은 단어가 나온 다음 위치로</h3><div class="key-combo"><kbd>n</kbd><kbd>N</kbd></div>
+<p>전체 화면 상세 보기에서 검색창을 닫은 뒤 n은 다음 검색 결과, 대문자 N은 이전 결과로 갑니다.</p><p class="shortcut-example"><span>예를 들어</span>“기한”이 여러 곳에 나오면 n으로 넘겨보고, 지나쳤다면 N으로 돌아가세요.</p>
+<p class="shortcut-tip">여기의 N은 Shift+N입니다.</p></article>
+<article class="shortcut-card" id="key-transcript-line" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-transcript-line" aria-label="상세 보기를 한 줄씩 읽기 바로가기">#</a></div>
+<h3>상세 보기를 한 줄씩 읽기</h3><div class="key-combo"><kbd>j</kbd><kbd>k</kbd><kbd>↓</kbd><kbd>↑</kbd></div>
+<p>전체 화면 상세 보기에서 j·↓는 아래, k·↑는 위로 한 줄씩 이동합니다.</p><p class="shortcut-example"><span>예를 들어</span>오류 로그를 한 줄씩 확인할 때 j로 내려가고 k로 돌아오세요.</p>
+</article>
+<article class="shortcut-card" id="key-transcript-edge" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-transcript-edge" aria-label="상세 보기 맨 위와 맨 아래로 바로가기">#</a></div>
+<h3>상세 보기 맨 위와 맨 아래로</h3><div class="key-combo"><kbd>g</kbd><kbd>G</kbd><kbd>Home</kbd><kbd>End</kbd></div>
+<p>전체 화면 상세 보기에서 g·Home은 처음, G·End는 끝으로 갑니다.</p><p class="shortcut-example"><span>예를 들어</span>처음 요청한 조건과 마지막 결과를 비교할 때 Home과 End로 오가세요.</p>
+<p class="shortcut-tip">이 화면의 G는 Shift+G입니다.</p></article>
+<article class="shortcut-card" id="key-transcript-prompt" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-transcript-prompt" aria-label="내가 요청한 지점만 건너뛰며 보기 바로가기">#</a></div>
+<h3>내가 요청한 지점만 건너뛰며 보기</h3><div class="key-combo"><kbd>{</kbd><kbd>}</kbd></div>
+<p>전체 화면 상세 보기에서 {는 이전 사용자 요청, }는 다음 사용자 요청으로 갑니다.</p><p class="shortcut-example"><span>예를 들어</span>도구 로그는 건너뛰고, 내가 지시를 바꾼 대목부터 확인하고 싶을 때 쓰세요.</p>
+</article>
+<article class="shortcut-card" id="key-transcript-half" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-transcript-half" aria-label="상세 보기 반 화면씩 이동 바로가기">#</a></div>
+<h3>상세 보기 반 화면씩 이동</h3><div class="key-combo"><kbd>Ctrl+U</kbd><kbd>Ctrl+D</kbd></div>
+<p>전체 화면의 대화 상세 보기에서 Ctrl+U는 반 페이지 위로, Ctrl+D는 반 페이지 아래로 이동합니다.</p><p class="shortcut-example"><span>예를 들어</span>긴 보고서를 읽다가 바로 앞 문단을 다시 보려면 Ctrl+U를 누르세요.</p>
+<p class="shortcut-tip">상세 보기 안에서 누르는 Ctrl+D는 아래로 스크롤합니다. 빈 입력창의 종료 키와 구분하세요.</p></article>
+<article class="shortcut-card" id="key-transcript-page" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-transcript-page" aria-label="상세 보기 한 화면씩 이동 바로가기">#</a></div>
+<h3>상세 보기 한 화면씩 이동</h3><div class="key-combo"><kbd>Ctrl+B</kbd><kbd>b</kbd><kbd>Ctrl+F</kbd><kbd>Space</kbd></div>
+<p>전체 화면 상세 보기에서 Ctrl+B·b는 위로, Ctrl+F·Space는 아래로 한 페이지씩 갑니다.</p><p class="shortcut-example"><span>예를 들어</span>수백 줄짜리 실행 결과를 Space로 넘겨 읽다가, 앞 화면을 다시 보려면 b를 누르세요.</p>
+<p class="shortcut-tip">대화 상세 보기 안에서는 Ctrl+B가 위로 한 페이지 이동하는 키입니다.</p></article>
+<article class="shortcut-card" id="key-transcript-scrollback" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-transcript-scrollback" aria-label="터미널의 검색 기능으로 찾기 바로가기">#</a></div>
+<h3>터미널의 검색 기능으로 찾기</h3><div class="key-combo"><kbd>[</kbd></div>
+<p>전체 화면 상세 보기에서 [를 누르면 전체 대화를 터미널의 일반 스크롤 기록으로 내보냅니다.</p><p class="shortcut-example"><span>예를 들어</span>터미널의 검색 기능이 익숙하다면 Ctrl+O, [ 순서로 누른 뒤 Cmd+F나 tmux 검색을 쓰세요.</p>
+<p class="shortcut-tip">상세 보기를 나오면 전체 화면으로 돌아갑니다. 터미널의 검색 키는 앱마다 달라요.</p></article>
+<article class="shortcut-card" id="key-transcript-editor" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-transcript-editor" aria-label="대화 전체를 편집기로 열기 바로가기">#</a></div>
+<h3>대화 전체를 편집기로 열기</h3><div class="key-combo"><kbd>v</kbd></div>
+<p>전체 화면 상세 보기에서 대화를 임시 파일로 써서 $VISUAL 또는 $EDITOR에 지정한 편집기로 엽니다.</p><p class="shortcut-example"><span>예를 들어</span>긴 조사 결과에서 같은 표현이 나온 곳을 모두 찾고 싶으면 v로 편집기를 열어 검색하세요.</p>
+</article>
+<article class="shortcut-card" id="key-transcript-expand" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-transcript-expand" aria-label="접힌 내용까지 전부 펼치기 바로가기">#</a></div>
+<h3>접힌 내용까지 전부 펼치기</h3><div class="key-combo"><kbd>Ctrl+E</kbd></div>
+<p>일반 화면의 상세 보기에서 전체 내용 표시를 켜고 끕니다.</p><p class="shortcut-example"><span>예를 들어</span>접힌 도구 결과의 원문을 읽으려면 Ctrl+E로 펼쳐보세요.</p>
+<p class="shortcut-tip">이 토글은 일반 화면에만 있어요. 평소 입력창에서 Ctrl+E를 누르면 커서가 줄 끝으로 갑니다.</p></article>
+<article class="shortcut-card" id="key-transcript-exit" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-transcript-exit" aria-label="다 읽었으면 요청창으로 바로가기">#</a></div>
+<h3>다 읽었으면 요청창으로</h3><div class="key-combo"><kbd>q</kbd><kbd>Esc</kbd><kbd>Ctrl+C</kbd><kbd>Ctrl+O</kbd></div>
+<p>상세 보기를 닫고 입력창으로 돌아옵니다.</p><p class="shortcut-example"><span>예를 들어</span>로그를 다 읽었으면 q로 돌아와 다음 요청을 적으세요.</p>
+<p class="shortcut-tip">전체 화면에서는 Ctrl+O로도 입력창에 돌아옵니다.</p></article>
+<article class="shortcut-card" id="key-scroll-page" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-scroll-page" aria-label="대화 화면을 반 화면씩 올리고 내리기 바로가기">#</a></div>
+<h3>대화 화면을 반 화면씩 올리고 내리기</h3><div class="key-combo"><kbd>PageUp</kbd><kbd>PageDown</kbd></div>
+<p>전체 화면에서 대화를 위아래로 반 화면씩 스크롤합니다.</p><p class="shortcut-example"><span>예를 들어</span>Claude가 작업 중일 때 앞쪽 답변을 다시 읽으려면 PageUp을 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-scroll-edge" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-scroll-edge" aria-label="대화 처음과 최신 답변으로 바로가기">#</a></div>
+<h3>대화 처음과 최신 답변으로</h3><div class="key-combo"><kbd>Ctrl+Home</kbd><kbd>Ctrl+End</kbd></div>
+<p>전체 화면에서 Ctrl+Home은 대화 처음, Ctrl+End는 최신 메시지로 갑니다. Ctrl+End를 누르면 이후 새 답변도 자동으로 따라 내려가요.</p><p class="shortcut-example"><span>예를 들어</span>지난 답변을 읽느라 위로 올라갔다면 Ctrl+End로 현재 작업에 돌아오세요.</p>
+<p class="shortcut-tip">MacBook의 Ctrl+Fn+→는 macOS에서 가로채므로 Claude에 도달하지 않습니다. 이 경우 맨 아래 이동 버튼을 누르거나 별도 키를 지정하세요.</p></article>
+<article class="shortcut-card" id="key-selection-copy" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-selection-copy" aria-label="선택한 문장 복사 바로가기">#</a></div>
+<h3>선택한 문장 복사</h3><div class="key-combo"><kbd>Ctrl+Shift+C</kbd><kbd>Cmd+C</kbd></div>
+<p>전체 화면에서 선택한 글을 클립보드로 복사합니다.</p><p class="shortcut-example"><span>예를 들어</span>팀에 공유할 문장만 골라 복사하세요. 전체 답변을 가져와서 지우지 않아도 됩니다.</p>
+<p class="shortcut-tip">Cmd+C는 Kitty 키보드 프로토콜처럼 키를 전달하는 터미널에서 지원합니다. 선택이 있으면 Ctrl+C도 복사로 동작할 수 있어요.</p></article>
+<article class="shortcut-card" id="key-selection-grow" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-selection-grow" aria-label="선택 영역을 키보드로 늘리기 바로가기">#</a></div>
+<h3>선택 영역을 키보드로 늘리기</h3><div class="key-combo"><kbd>Shift+←</kbd><kbd>Shift+→</kbd><kbd>Shift+↑</kbd><kbd>Shift+↓</kbd></div>
+<p>이미 선택한 글의 범위를 한 글자 또는 한 줄씩 늘립니다. 위아래 화면 끝에 닿으면 화면도 스크롤돼요.</p><p class="shortcut-example"><span>예를 들어</span>마우스로 고른 문장에서 마지막 글자가 빠졌다면 Shift+→로 선택을 한 칸 늘리세요.</p>
+</article>
+<article class="shortcut-card" id="key-selection-line" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-selection-line" aria-label="선택을 줄 처음이나 끝까지 바로가기">#</a></div>
+<h3>선택을 줄 처음이나 끝까지</h3><div class="key-combo"><kbd>Shift+Home</kbd><kbd>Shift+End</kbd></div>
+<p>전체 화면에서 선택 범위를 현재 줄 처음 또는 끝까지 확장합니다.</p><p class="shortcut-example"><span>예를 들어</span>선택한 문장의 뒷부분까지 필요하면 Shift+End로 줄 끝까지 늘리세요.</p>
+</article>
+</section>
+<section class="shortcut-group" id="group-btw"><div class="group-heading"><span class="section-num">06</span><div><h2>/btw로 잠깐 물어본 뒤에</h2><p>/btw로 “이 용어 무슨 뜻이야?” 하고 물었다면, 답변 창에서 복사하거나 앞서 물은 답변을 다시 볼 수 있어요. 아래 키는 그 답변 창 안에서 씁니다.</p></div></div>
+<article class="shortcut-card" id="key-btw-close" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-btw-close" aria-label="답변 읽었으면 하던 일로 바로가기">#</a></div>
+<h3>답변 읽었으면 하던 일로</h3><div class="key-combo"><kbd>Space</kbd><kbd>Enter</kbd><kbd>Esc</kbd></div>
+<p>/btw 답변을 닫고 입력창으로 돌아옵니다.</p><p class="shortcut-example"><span>예를 들어</span>용어 설명을 다 읽었으면 Space를 눌러 제안서 작업으로 돌아오세요.</p>
+</article>
+<article class="shortcut-card" id="key-btw-scroll" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-btw-scroll" aria-label="긴 곁가지 답변 읽기 바로가기">#</a></div>
+<h3>긴 곁가지 답변 읽기</h3><div class="key-combo"><kbd>↑</kbd><kbd>↓</kbd></div>
+<p>/btw 답변 안을 위아래로 스크롤합니다.</p><p class="shortcut-example"><span>예를 들어</span>설명이 화면보다 길면 ↓로 나머지를 읽으세요.</p>
+</article>
+<article class="shortcut-card" id="key-btw-history" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-btw-history" aria-label="아까 물었던 것도 다시 보기 바로가기">#</a></div>
+<h3>아까 물었던 것도 다시 보기</h3><div class="key-combo"><kbd>Shift+←</kbd><kbd>Shift+→</kbd><kbd>[</kbd><kbd>]</kbd><kbd>Tab</kbd><kbd>Shift+Tab</kbd></div>
+<p>Shift+←나 [는 이전 답변, Shift+→나 ]는 현재 쪽 답변으로 이동합니다. Tab·Shift+Tab으로도 같은 답변들을 돌려볼 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span>지금 답변을 읽다가 첫 질문의 약어 설명을 다시 보고 싶어졌다면 Shift+←를 누르세요.</p>
+<p class="shortcut-tip">v2.1.257 이상 기준. Shift+화살표를 전달하지 않는 터미널에서는 [와 ]를 쓰세요.</p></article>
+<article class="shortcut-card" id="key-btw-copy" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-btw-copy" aria-label="이 설명만 깔끔하게 복사 바로가기">#</a></div>
+<h3>이 설명만 깔끔하게 복사</h3><div class="key-combo"><kbd>c</kbd></div>
+<p>답변을 줄바꿈이 강제로 들어가지 않은 원래 Markdown으로 복사합니다.</p><p class="shortcut-example"><span>예를 들어</span>답변을 메일에 옮길 때 c를 누르면 터미널 폭에 맞춰 잘린 줄까지 복사되는 일을 피할 수 있어요.</p>
+</article>
+<article class="shortcut-card" id="key-btw-fork" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-btw-fork" aria-label="이 질문은 따로 더 파보자 바로가기">#</a></div>
+<h3>이 질문은 따로 더 파보자</h3><div class="key-combo"><kbd>f</kbd></div>
+<p>지금까지의 대화와 이 질문·답변을 넘겨받아 별도 서브에이전트가 일을 이어갑니다. 도구도 사용할 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span>약어의 뜻만 물었다가 관련 자료 조사까지 필요해졌다면 f로 넘기세요. 새 에이전트는 입력창 아래 패널에서 확인할 수 있습니다.</p>
+<p class="shortcut-tip">로컬 세션에서만 사용할 수 있습니다.</p></article>
+<article class="shortcut-card" id="key-btw-clear" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-btw-clear" aria-label="앞서 물었던 질문 목록 치우기 바로가기">#</a></div>
+<h3>앞서 물었던 질문 목록 치우기</h3><div class="key-combo"><kbd>x</kbd></div>
+<p>현재 답변 위에 모인 이전 /btw 질문과 답변 목록을 비웁니다.</p><p class="shortcut-example"><span>예를 들어</span>앞서 물어본 질문이 위쪽에 많이 쌓였다면 x로 목록을 비우세요.</p>
+</article>
+</section>
+<section class="shortcut-group" id="group-models"><div class="group-heading"><span class="section-num">07</span><div><h2>모델, 생각의 강도, 음성을 바꿀 때</h2><p>쓰던 요청을 남겨둔 채 모델을 바꿀 수 있어요. 생각의 강도는 모델 선택창이나 /effort에서 조절합니다.</p></div></div>
+<article class="shortcut-card" id="key-model" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-model" aria-label="이번 일에 쓸 모델 고르기 바로가기">#</a></div>
+<h3>이번 일에 쓸 모델 고르기</h3><div class="key-combo"><kbd>Option+P (Mac)</kbd><kbd>Alt+P (Windows·Linux)</kbd></div>
+<p>쓰던 요청을 지우지 않고 모델 선택창을 엽니다.</p><p class="shortcut-example"><span>예를 들어</span>긴 요청을 써놓은 뒤 모델을 바꾸고 싶어졌다면, 글을 지우지 말고 이 키로 선택창을 여세요.</p>
+<p class="shortcut-tip">Mac에서는 터미널의 Option as Meta 설정이 필요합니다.</p></article>
+<article class="shortcut-card" id="key-fast" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-fast" aria-label="빠른 모드 켜고 끄기 바로가기">#</a></div>
+<h3>빠른 모드 켜고 끄기</h3><div class="key-combo"><kbd>Option+O (Mac)</kbd><kbd>Alt+O (Windows·Linux)</kbd></div>
+<p>지원하는 모델의 fast 모드를 전환합니다.</p><p class="shortcut-example"><span>예를 들어</span>결과를 빨리 받아야 한다면 이 키로 빠른 모드를 켠 뒤, 화면의 상태 표시를 확인하세요.</p>
+<p class="shortcut-tip">빠른 모드를 지원하는 모델과 이용 조건이 필요해요. /fast 창에서는 Tab으로 켜고 끌 수 있습니다.</p></article>
+<article class="shortcut-card" id="key-thinking" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-thinking" aria-label="생각 모드 전환 바로가기">#</a></div>
+<h3>생각 모드 전환</h3><div class="key-combo"><kbd>Option+T (Mac)</kbd><kbd>Alt+T (Windows·Linux)</kbd></div>
+<p>확장 사고를 켜거나 끕니다. 항상 확장 사고를 사용하는 모델에서는 설정이 바뀌지 않아요.</p><p class="shortcut-example"><span>예를 들어</span>확장 사고를 선택할 수 있는 모델을 쓰고 있다면, 복잡한 검토를 맡기기 전에 켜졌는지 확인해보세요.</p>
+<p class="shortcut-tip">Opus 5.5·Sonnet 5.5·Haiku 5.5와 Fable 모델은 항상 확장 사고를 사용하므로 이 키에 반응하지 않아요. Mac에서는 Option as Meta 설정 없이도 동작합니다.</p></article>
+<article class="shortcut-card" id="key-model-effort" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-model-effort" aria-label="모델을 고르며 생각의 강도 조절 바로가기">#</a></div>
+<h3>모델을 고르며 생각의 강도 조절</h3><div class="key-combo"><kbd>←</kbd><kbd>→</kbd><kbd>s (모델 선택창)</kbd></div>
+<p>←→로 effort를 낮추거나 높입니다. s는 선택한 모델을 이번 세션에만 적용합니다.</p><p class="shortcut-example"><span>예를 들어</span>오늘 작업에서만 다른 모델을 쓰려면 모델을 고른 뒤 s를 누르세요. 기본 모델 설정은 유지할 수 있어요.</p>
+</article>
+<article class="shortcut-card" id="key-effort" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-effort" aria-label="검토 강도만 이번 일에 맞추기 바로가기">#</a></div>
+<h3>검토 강도만 이번 일에 맞추기</h3><div class="key-combo"><kbd>←</kbd><kbd>→</kbd><kbd>s (effort 슬라이더)</kbd></div>
+<p>/effort로 연 화면에서 ←→로 강도를 조절하고, s로 현재 세션에만 적용합니다.</p><p class="shortcut-example"><span>예를 들어</span>오탈자 수정 다음에 복잡한 원인 분석을 맡긴다면, /effort를 열어 강도를 올려볼 수 있어요.</p>
+<p class="shortcut-tip">화살표 조절은 v2.1.284 이상, 세션 한정 적용은 v2.1.257 이상입니다.</p></article>
+<article class="shortcut-card" id="key-ultracode" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-ultracode" aria-label="ultracode 선택이 보일 때 전환 바로가기">#</a></div>
+<h3>ultracode 선택이 보일 때 전환</h3><div class="key-combo"><kbd>Tab (effort 슬라이더)</kbd></div>
+<p>/effort 화면에 ultracode 선택이 제공되면 Tab으로 이번 세션에서 켜거나 끕니다.</p><p class="shortcut-example"><span>예를 들어</span>/effort에 이 선택이 보이면 Tab으로 켜거나 끄고, 이번 작업에 쓸 상태를 확인하세요.</p>
+<p class="shortcut-tip">v2.1.284 이상이며, 모든 환경에 나타나는 옵션은 아닙니다.</p></article>
+<article class="shortcut-card" id="key-theme" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-theme" aria-label="코드 색상 표시 켜고 끄기 바로가기">#</a></div>
+<h3>코드 색상 표시 켜고 끄기</h3><div class="key-combo"><kbd>Ctrl+T (/theme 메뉴)</kbd></div>
+<p>테마를 고르는 화면에서 코드 구문 색상을 켜거나 끕니다.</p><p class="shortcut-example"><span>예를 들어</span>코드 색이 너무 복잡하게 느껴지면 /theme에서 Ctrl+T로 비교해보세요.</p>
+<p class="shortcut-tip">평소 입력창의 Ctrl+T는 작업 체크리스트를 여는 키입니다.</p></article>
+<article class="shortcut-card" id="key-voice" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-voice" aria-label="말로 요청 입력하기 바로가기">#</a></div>
+<h3>말로 요청 입력하기</h3><div class="key-combo"><kbd>Space 길게</kbd><kbd>한 번씩 누르기</kbd></div>
+<p>음성 입력을 켜두면 Space로 녹음할 수 있어요. 누르고 있는 동안 말하는 방식과, /voice tap으로 한 번 눌러 시작하고 다시 눌러 끝내는 방식이 있습니다.</p><p class="shortcut-example"><span>예를 들어</span>회의록을 어떻게 정리할지 말로 입력하고 싶다면, 음성 입력을 켠 다음 Space로 녹음하세요.</p>
+<p class="shortcut-tip">/voice를 먼저 켜야 사용할 수 있어요.</p></article>
+</section>
+<section class="shortcut-group" id="group-agents"><div class="group-heading"><span class="section-num">08</span><div><h2>백그라운드 작업과 여러 세션을 오갈 때</h2><p>테스트가 오래 걸리면 뒤에서 계속 돌려두고 다른 요청을 할 수 있어요. 진행 중인 작업은 입력창 아래에서 고르거나 /tasks로 확인하세요.</p></div></div>
+<article class="shortcut-card is-top" id="key-background" data-top="true" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD · 먼저 써볼 키</span><a href="#key-background" aria-label="이건 뒤에서 계속 돌려줘 바로가기">#</a></div>
+<h3>이건 뒤에서 계속 돌려줘</h3><div class="key-combo"><kbd>Ctrl+B</kbd><kbd>Ctrl+X → Ctrl+B</kbd></div>
+<p>진행 중인 셸 작업이나 에이전트를 뒤에서 계속 실행하게 합니다. 입력창에서는 다른 요청을 이어갈 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span>테스트가 오래 걸리면 Ctrl+B를 누르고, 기다리는 동안 “README 초안 써줘”라고 요청하세요.</p>
+<p class="shortcut-tip">tmux에서는 Ctrl+B를 두 번 누릅니다. 백그라운드 작업을 꺼둔 환경에서는 사용할 수 없어요.</p></article>
+<article class="shortcut-card" id="key-agent-view" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agent-view" aria-label="세션 목록으로 나가기 바로가기">#</a></div>
+<h3>세션 목록으로 나가기</h3><div class="key-combo"><kbd>← (빈 입력창)</kbd></div>
+<p>빈 입력창에서 ←를 누르면 현재 세션을 백그라운드로 보내고 에이전트 목록으로 이동할 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span>보고서 작업을 돌려둔 채 다른 프로젝트의 대화로 옮기고 싶을 때 쓰세요.</p>
+<p class="shortcut-tip">대기 중인 셸 명령이나 이동할 수 없는 메시지가 있으면 전환이 막힐 수 있어요. 일반 모드와 Vim 모드 모두에서 지원합니다.</p></article>
+<article class="shortcut-card" id="key-footer-side" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-footer-side" aria-label="아래에 뜬 작업 선택하기 바로가기">#</a></div>
+<h3>아래에 뜬 작업 선택하기</h3><div class="key-combo"><kbd>←</kbd><kbd>→ (아래 상태 영역)</kbd></div>
+<p>입력창 아래 상태 영역에서 옆 항목으로 선택을 옮깁니다.</p><p class="shortcut-example"><span>예를 들어</span>조사 결과가 입력창 아래에 여러 개 보이면 ←→로 읽을 항목을 고르세요.</p>
+</article>
+<article class="shortcut-card" id="key-footer-vertical" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-footer-vertical" aria-label="아래 작업 목록 위아래로 바로가기">#</a></div>
+<h3>아래 작업 목록 위아래로</h3><div class="key-combo"><kbd>↑</kbd><kbd>↓</kbd><kbd>Ctrl+P</kbd><kbd>Ctrl+N</kbd></div>
+<p>↑·Ctrl+P는 위로, ↓·Ctrl+N은 아래로 선택을 옮깁니다. 맨 위에서 위로 가면 선택을 해제해요.</p><p class="shortcut-example"><span>예를 들어</span>아래 에이전트 패널에서 두 번째 작업을 선택하려면 ↓로 옮기세요.</p>
+</article>
+<article class="shortcut-card" id="key-footer-open" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-footer-open" aria-label="선택한 작업 열고 나오기 바로가기">#</a></div>
+<h3>선택한 작업 열고 나오기</h3><div class="key-combo"><kbd>Enter</kbd><kbd>Esc</kbd></div>
+<p>Enter로 아래 상태 영역의 선택 항목을 열고, Esc로 선택을 해제합니다.</p><p class="shortcut-example"><span>예를 들어</span>아래에서 조사 에이전트를 고른 뒤 Enter로 결과를 열어보세요.</p>
+<p class="shortcut-tip">입력창의 Enter를 다른 기능으로 바꿨어도 이 영역에서 Enter는 선택 항목을 엽니다.</p></article>
+<article class="shortcut-card" id="key-footer-stop" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-footer-stop" aria-label="이 에이전트는 여기서 멈추자 바로가기">#</a></div>
+<h3>이 에이전트는 여기서 멈추자</h3><div class="key-combo"><kbd>x</kbd></div>
+<p>선택한 에이전트나 워크플로가 실행 중이면 멈춥니다. 이미 끝났다면 그 행을 치웁니다.</p><p class="shortcut-example"><span>예를 들어</span>조사 방향이 바뀌어 필요 없어진 에이전트 한 개를 고른 뒤 x를 누르세요.</p>
+<p class="shortcut-tip">현재 고른 작업에만 적용됩니다.</p></article>
+<article class="shortcut-card" id="key-agents-group" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-group" aria-label="상태별·폴더별로 묶어 보기 바로가기">#</a></div>
+<h3>상태별·폴더별로 묶어 보기</h3><div class="key-combo"><kbd>Ctrl+S (에이전트 보기)</kbd></div>
+<p><code>claude agents</code>로 연 에이전트 보기에서 세션을 상태 또는 디렉터리 기준으로 묶습니다.</p><p class="shortcut-example"><span>예를 들어</span>응답을 기다리는 세션을 상태별로 보다가, 프로젝트별로 찾고 싶을 때 Ctrl+S로 묶는 방식을 바꾸세요.</p>
+<p class="shortcut-tip">에이전트 보기에서는 Ctrl+S가 목록을 묶는 키예요. 사용자 설정을 따르는 Agents 단축키는 v2.1.257 이상 기준입니다.</p></article>
+<article class="shortcut-card" id="key-agents-pin" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-pin" aria-label="자주 쓰는 세션 고정 바로가기">#</a></div>
+<h3>자주 쓰는 세션 고정</h3><div class="key-combo"><kbd>Ctrl+T (에이전트 보기)</kbd></div>
+<p>선택한 세션을 고정하거나 고정을 해제합니다.</p><p class="shortcut-example"><span>예를 들어</span>매일 들어가는 고객사 대화를 목록에서 고정해두세요.</p>
+</article>
+<article class="shortcut-card" id="key-agents-find" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-find" aria-label="이름으로 세션 찾기 바로가기">#</a></div>
+<h3>이름으로 세션 찾기</h3><div class="key-combo"><kbd>Ctrl+F (에이전트 보기)</kbd></div>
+<p><code>n:</code> 필터를 사용해 세션 이름을 찾습니다.</p><p class="shortcut-example"><span>예를 들어</span>세션이 많아졌다면 Ctrl+F를 누르고 “월간보고”처럼 이름에 들어간 말을 적으세요.</p>
+<p class="shortcut-tip">v2.1.288 이상입니다.</p></article>
+<article class="shortcut-card" id="key-agents-rename" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-rename" aria-label="이 대화 이름 바꾸기 바로가기">#</a></div>
+<h3>이 대화 이름 바꾸기</h3><div class="key-combo"><kbd>Ctrl+R (에이전트 보기)</kbd></div>
+<p>선택한 세션의 이름을 바꿉니다.</p><p class="shortcut-example"><span>예를 들어</span>비슷한 제목이 겹치면 “A사 10월 제안서”처럼 나중에 찾을 이름을 붙이세요.</p>
+<p class="shortcut-tip">v2.1.288 이상. 평소 입력창의 Ctrl+R은 기록 검색입니다.</p></article>
+<article class="shortcut-card" id="key-agents-jump" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-jump" aria-label="세션 그룹 사이로 건너뛰기 바로가기">#</a></div>
+<h3>세션 그룹 사이로 건너뛰기</h3><div class="key-combo"><kbd>Ctrl+↑</kbd><kbd>Alt+↑</kbd><kbd>Option+↑ (Mac)</kbd><kbd>Ctrl+↓</kbd><kbd>Alt+↓</kbd><kbd>Option+↓ (Mac)</kbd></div>
+<p>에이전트 보기에서 위·아래 그룹 제목으로 이동합니다.</p><p class="shortcut-example"><span>예를 들어</span>폴더가 여러 개라면 개별 세션을 지나가지 않고 다음 폴더 그룹으로 바로 이동해보세요.</p>
+<p class="shortcut-tip">v2.1.288 이상입니다. 에이전트 보기의 요청 입력칸은 Ctrl+G로 외부 편집기를 열 수 있지만 Ctrl+X → Ctrl+E 연속 키는 지원하지 않아요.</p></article>
+</section>
+<section class="shortcut-group" id="group-agent-list"><div class="group-heading"><span class="section-num">09</span><div><h2>에이전트 목록에서 세션을 열고 정리할 때</h2><p>claude agents로 연 목록에서 쓰는 키예요. 입력칸에 새 요청을 쓰고 Enter를 누르면 새 세션이 시작됩니다. 진행 중인 대화에 들어가려면 그 세션을 골라 여세요.</p></div></div>
+<article class="shortcut-card" id="key-agents-rows" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-rows" aria-label="세션 목록에서 이동 바로가기">#</a></div>
+<h3>세션 목록에서 이동</h3><div class="key-combo"><kbd>↑</kbd><kbd>↓</kbd><kbd>PageUp</kbd><kbd>PageDown</kbd><kbd>Home</kbd><kbd>End</kbd></div>
+<p>↑↓는 한 행씩, PageUp·PageDown은 한 화면씩, Home·End는 처음·마지막 행으로 이동합니다.</p><p class="shortcut-example"><span>예를 들어</span>긴 목록의 마지막 작업부터 보고 싶으면 End를 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-agents-attach" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-attach" aria-label="고른 세션에 들어가기 바로가기">#</a></div>
+<h3>고른 세션에 들어가기</h3><div class="key-combo"><kbd>Enter</kbd><kbd>→</kbd></div>
+<p>선택한 세션의 전체 대화를 엽니다. 입력칸에 새 요청이 있으면 Enter는 그 요청으로 새 세션을 시작해요. 필터를 입력한 상태라면 검색된 세션을 엽니다.</p><p class="shortcut-example"><span>예를 들어</span>진행 중인 제안서 대화를 열려면 해당 행을 고른 뒤 →를 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-agents-peek" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-peek" aria-label="들어가지 않고 내용 미리 보기 바로가기">#</a></div>
+<h3>들어가지 않고 내용 미리 보기</h3><div class="key-combo"><kbd>Space</kbd></div>
+<p>선택한 세션의 미리보기 패널을 열거나 닫습니다.</p><p class="shortcut-example"><span>예를 들어</span>세션에 들어가기 전에 어떤 결과가 나왔는지 읽어보려면 Space로 미리보기를 여세요.</p>
+</article>
+<article class="shortcut-card" id="key-agents-newline" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-newline" aria-label="새 작업 요청에 줄바꿈 바로가기">#</a></div>
+<h3>새 작업 요청에 줄바꿈</h3><div class="key-combo"><kbd>Ctrl+J</kbd><kbd>Shift+Enter</kbd></div>
+<p>에이전트 보기의 작업 요청 입력칸에서 줄을 바꿉니다.</p><p class="shortcut-example"><span>예를 들어</span>“경쟁사 조사해줘” 다음 줄에 범위와 결과 형식을 나눠 적으세요.</p>
+<p class="shortcut-tip">Shift+Enter 지원 여부는 일반 입력창과 마찬가지로 터미널에 따라 달라집니다.</p></article>
+<article class="shortcut-card" id="key-agents-dispatch" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-dispatch" aria-label="새 작업을 보내고 바로 들어가기 바로가기">#</a></div>
+<h3>새 작업을 보내고 바로 들어가기</h3><div class="key-combo"><kbd>Ctrl+Enter</kbd></div>
+<p>새 세션을 시작하면서 그 세션의 전체 대화로 바로 들어갑니다.</p><p class="shortcut-example"><span>예를 들어</span>새 오류 분석을 맡긴 뒤 진행 과정을 바로 보고 싶다면, 요청을 적고 Ctrl+Enter를 누르세요.</p>
+<p class="shortcut-tip">? 도움말에 “ctrl+enter to start and open”이 표시되는 터미널에서 쓸 수 있습니다.</p></article>
+<article class="shortcut-card" id="key-agents-number" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-number" aria-label="같은 폴더의 다른 세션으로 바로가기">#</a></div>
+<h3>같은 폴더의 다른 세션으로</h3><div class="key-combo"><kbd>Alt+1부터 Alt+9 (Mac: Option+숫자)</kbd></div>
+<p>선택된 세션과 같은 디렉터리에 있는 1~9번 세션으로 바로 들어갑니다.</p><p class="shortcut-example"><span>예를 들어</span>같은 프로젝트의 두 번째 세션을 열려면 Alt+2를 누르세요.</p>
+<p class="shortcut-tip">현재 초점을 둔 세션의 디렉터리 안에서 번호를 셉니다.</p></article>
+<article class="shortcut-card" id="key-agents-tab" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-tab" aria-label="에이전트 찾거나 후보 넣기 바로가기">#</a></div>
+<h3>에이전트 찾거나 후보 넣기</h3><div class="key-combo"><kbd>Tab</kbd></div>
+<p>입력칸이 비어 있으면 전체 서브에이전트를 둘러보고, 입력 중에는 선택한 자동완성 후보를 적용합니다.</p><p class="shortcut-example"><span>예를 들어</span>빈 입력칸에서 Tab으로 쓸 수 있는 에이전트를 확인하세요.</p>
+</article>
+<article class="shortcut-card" id="key-agents-stop-delete" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-stop-delete" aria-label="세션 중단, 한 번 더 누르면 삭제 바로가기">#</a></div>
+<h3>세션 중단, 한 번 더 누르면 삭제</h3><div class="key-combo"><kbd>Ctrl+X</kbd></div>
+<p>선택한 세션을 멈춥니다. 2초 안에 다시 누르면 세션 삭제를 요청합니다.</p><p class="shortcut-example"><span>예를 들어</span>작업을 중단만 할 때는 한 번 누르고 멈추세요.</p>
+<p class="shortcut-tip">두 번째 키는 삭제로 이어집니다. Claude가 만든 작업 폴더도 삭제 대상이 될 수 있으니 화면의 확인·보존 안내를 읽으세요.</p></article>
+<article class="shortcut-card" id="key-agents-order" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-order" aria-label="세션의 표시 순서 바꾸기 바로가기">#</a></div>
+<h3>세션의 표시 순서 바꾸기</h3><div class="key-combo"><kbd>Shift+↑</kbd><kbd>Shift+↓</kbd></div>
+<p>선택한 세션을 목록 위아래로 옮깁니다.</p><p class="shortcut-example"><span>예를 들어</span>지금 확인할 작업이 멀리 있다면 Shift+↑로 목록 위쪽에 옮겨두세요.</p>
+</article>
+<article class="shortcut-card" id="key-agents-close" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-close" aria-label="미리보기 닫기, 입력 비우기, 나가기 바로가기">#</a></div>
+<h3>미리보기 닫기, 입력 비우기, 나가기</h3><div class="key-combo"><kbd>Esc</kbd><kbd>Ctrl+C</kbd></div>
+<p>Esc는 열린 미리보기를 닫거나 입력을 비우고, 마지막에는 에이전트 보기를 나갑니다. Ctrl+C는 입력을 비우며, 두 번 누르면 나갑니다.</p><p class="shortcut-example"><span>예를 들어</span>원래 세션에서 ←로 들어왔다면, Esc로 미리보기와 입력을 정리한 뒤 그 대화로 돌아올 수 있어요.</p>
+<p class="shortcut-tip">Vim 입력 중 Esc는 우선 NORMAL로 바꾸며 글을 남깁니다. 화면의 글을 선택한 상태에서 Ctrl+C는 선택을 해제하며, 설정에 따라 먼저 복사해요.</p></article>
+<article class="shortcut-card" id="key-agents-help" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-agents-help" aria-label="세션 목록의 단축키 보기 바로가기">#</a></div>
+<h3>세션 목록의 단축키 보기</h3><div class="key-combo"><kbd>?</kbd></div>
+<p>에이전트 보기에서 사용할 수 있는 키 안내를 엽니다.</p><p class="shortcut-example"><span>예를 들어</span>Ctrl+Enter 지원 여부나 현재 화면의 키가 헷갈리면 ?를 눌러보세요.</p>
+</article>
+</section>
+<section class="shortcut-group" id="group-diff"><div class="group-heading"><span class="section-num">10</span><div><h2>바뀐 파일을 검토할 때</h2><p>/diff를 실행하면 전체 화면에서는 옆 패널, 일반 화면에서는 변경 파일 대화상자가 열려요. cc-plugin-diff를 꺼두었다면 예전 뷰어가 열리고, 일부 키가 달라집니다.</p></div></div>
+<article class="shortcut-card" id="key-diff-base" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-diff-base" aria-label="무엇을 기준으로 비교할까? 바로가기">#</a></div>
+<h3>무엇을 기준으로 비교할까?</h3><div class="key-combo"><kbd>Ctrl+X → b</kbd></div>
+<p>전체 화면의 변경 파일 패널에서 비교 범위를 바꿔요. 이번 세션에서 생긴 변경, 아직 커밋하지 않은 변경 전체, 현재 브랜치가 기본 브랜치에서 갈라진 뒤의 변경 순서입니다.</p><p class="shortcut-example"><span>예를 들어</span>원래 고쳐두었던 파일과 이번에 Claude가 고친 파일이 섞여 있다면, 이번 세션 기준으로 바꿔 확인하세요.</p>
+<p class="shortcut-tip">Ctrl+X를 누르고 뗀 뒤 b만 누릅니다. 비교 범위는 저장소마다 기억해요.</p></article>
+<article class="shortcut-card" id="key-diff-list" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-diff-list" aria-label="긴 변경 파일 목록 스크롤 바로가기">#</a></div>
+<h3>긴 변경 파일 목록 스크롤</h3><div class="key-combo"><kbd>Ctrl+↑</kbd><kbd>Alt+↑</kbd><kbd>Option+↑ (Mac)</kbd><kbd>Ctrl+↓</kbd><kbd>Alt+↓</kbd><kbd>Option+↓ (Mac)</kbd></div>
+<p>diff 패널의 파일 목록이 길면 위아래로 스크롤합니다.</p><p class="shortcut-example"><span>예를 들어</span>변경 파일이 수십 개여서 목록 아래쪽이 안 보이면 Ctrl+↓로 내려보세요.</p>
+</article>
+<article class="shortcut-card" id="key-diff-dialog" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-diff-dialog" aria-label="변경 파일을 하나씩 열기 바로가기">#</a></div>
+<h3>변경 파일을 하나씩 열기</h3><div class="key-combo"><kbd>↑</kbd><kbd>↓</kbd><kbd>Enter</kbd><kbd>Esc</kbd></div>
+<p>일반 화면의 /diff 대화상자에서 ↑↓로 파일을 고르고 Enter로 내용을 엽니다. Esc는 파일 내용에서 목록으로, 목록에서는 창 밖으로 나옵니다.</p><p class="shortcut-example"><span>예를 들어</span>보고서 페이지의 파일을 골라 Enter로 열고, 바뀐 문장을 읽은 뒤 Esc로 목록에 돌아오세요.</p>
+</article>
+<article class="shortcut-card" id="key-diff-source" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-diff-source" aria-label="특정 차례의 수정만 보기 바로가기">#</a></div>
+<h3>특정 차례의 수정만 보기</h3><div class="key-combo"><kbd>Tab → ↑ 또는 ↓ → Enter</kbd></div>
+<p>변경 파일 대화상자에서 Tab으로 source 선택기에 간 뒤, Current 또는 T1·T2로 표시된 차례를 고릅니다. 차례별 보기는 Claude가 파일을 편집한 뒤 나타나요.</p><p class="shortcut-example"><span>예를 들어</span>source에 T2로 표시된 차례의 수정만 보려면 T2를 고르세요. Current로 돌아가면 작업 폴더의 현재 변경을 봅니다.</p>
+<p class="shortcut-tip">파일 내용 안에서 Tab은 ask 버튼으로 갑니다. Enter로 누르면 그 파일의 변경이 다음 질문에 첨부돼요. 차례별 보기에는 Claude의 파일 편집이 나오며, 셸 명령으로 만든 변경은 Current에서 확인합니다.</p></article>
+<article class="shortcut-card" id="key-diff-scroll" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-diff-scroll" aria-label="열린 변경 내용을 넘겨 읽기 바로가기">#</a></div>
+<h3>열린 변경 내용을 넘겨 읽기</h3><div class="key-combo"><kbd>↑</kbd><kbd>↓</kbd><kbd>PageUp</kbd><kbd>PageDown</kbd></div>
+<p>diff 대화상자에서 연 파일의 내용을 위아래로 스크롤합니다.</p><p class="shortcut-example"><span>예를 들어</span>긴 페이지에서 아래쪽 변경까지 읽은 뒤 Esc로 목록에 돌아오세요.</p>
+</article>
+<article class="shortcut-card" id="key-old-diff-source" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-old-diff-source" aria-label="예전 뷰어의 비교 대상 바꾸기 바로가기">#</a></div>
+<h3>예전 뷰어의 비교 대상 바꾸기</h3><div class="key-combo"><kbd>←</kbd><kbd>→ (이전 diff 뷰어)</kbd></div>
+<p>이전 diff 뷰어에서 이전·다음 source로 이동합니다.</p><p class="shortcut-example"><span>예를 들어</span>기본 diff 플러그인을 꺼두어 예전 뷰어가 열린다면, ←→로 이전·다음 source를 고르세요.</p>
+<p class="shortcut-tip">이 항목과 아래 세 항목은 /plugin에서 cc-plugin-diff를 끈 뒤 일반 화면의 /diff를 열었을 때 적용됩니다.</p></article>
+<article class="shortcut-card" id="key-old-diff-files" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-old-diff-files" aria-label="예전 뷰어에서 파일 고르기 바로가기">#</a></div>
+<h3>예전 뷰어에서 파일 고르기</h3><div class="key-combo"><kbd>↑</kbd><kbd>k</kbd><kbd>↓</kbd><kbd>j</kbd><kbd>Enter</kbd><kbd>Esc</kbd></div>
+<p>위쪽 키는 이전 파일, 아래쪽 키는 다음 파일입니다. Enter는 열기, Esc는 파일에서 목록으로 돌아오거나 목록을 닫기예요.</p><p class="shortcut-example"><span>예를 들어</span>예전 뷰어의 파일 목록에서는 j로 다음 파일을 고르고 Enter로 열 수 있어요.</p>
+<p class="shortcut-tip">상세 내용 안의 ↑↓ 또는 k·j는 한 줄씩 스크롤합니다. 일반 목록의 PageUp·PageDown·Home·End도 파일 목록에 쓸 수 있어요.</p></article>
+<article class="shortcut-card" id="key-old-diff-page" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-old-diff-page" aria-label="예전 뷰어에서 페이지 넘기기 바로가기">#</a></div>
+<h3>예전 뷰어에서 페이지 넘기기</h3><div class="key-combo"><kbd>PageUp</kbd><kbd>PageDown</kbd><kbd>Shift+Space</kbd><kbd>b</kbd><kbd>Space</kbd></div>
+<p>상세 내용에서 PageUp·PageDown은 반 화면씩 위아래로, Shift+Space·b는 한 화면 위로, Space는 한 화면 아래로 이동합니다.</p><p class="shortcut-example"><span>예를 들어</span>긴 변경 내용을 읽을 때 Space로 넘기고 b로 이전 화면을 다시 보세요.</p>
+</article>
+<article class="shortcut-card" id="key-old-diff-edge" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-old-diff-edge" aria-label="예전 뷰어의 맨 위와 아래 바로가기">#</a></div>
+<h3>예전 뷰어의 맨 위와 아래</h3><div class="key-combo"><kbd>g</kbd><kbd>Home</kbd><kbd>Shift+G</kbd><kbd>End</kbd></div>
+<p>상세 내용에서 g·Home은 처음으로, Shift+G·End는 끝으로 이동합니다.</p><p class="shortcut-example"><span>예를 들어</span>변경된 파일의 마지막 부분부터 확인하려면 End를 누르세요.</p>
+<p class="shortcut-tip">이 뷰어의 위로 가기는 Shift 없는 g, 아래로 가기는 Shift+G예요. 기본 키 설정의 알파벳 이름은 대소문자를 구별하지 않지만, Shift를 명시하면 별도 조합이 됩니다.</p></article>
+</section>
+<section class="shortcut-group" id="group-panels"><div class="group-heading"><span class="section-num">11</span><div><h2>첨부, 설정, 플러그인, 보조 패널을 다룰 때</h2><p>설정이나 플러그인 창에서 검색하고, 붙인 이미지도 골라 뺄 수 있어요. 글을 쓰는 칸에서는 알파벳 키가 그대로 입력됩니다.</p></div></div>
+<article class="shortcut-card" id="key-attachments" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-attachments" aria-label="붙인 이미지 고르고 빼기 바로가기">#</a></div>
+<h3>붙인 이미지 고르고 빼기</h3><div class="key-combo"><kbd>←</kbd><kbd>→</kbd><kbd>Backspace</kbd><kbd>Delete</kbd><kbd>↓</kbd><kbd>Esc</kbd></div>
+<p>첨부 탐색에서 ←→로 이미지를 고릅니다. Backspace·Delete는 선택한 이미지를 빼고, ↓·Esc는 탐색을 마쳐요.</p><p class="shortcut-example"><span>예를 들어</span>오류 화면을 두 장 붙였는데 한 장이 잘못됐다면, 그 이미지만 골라 Delete로 빼세요.</p>
+</article>
+<article class="shortcut-card" id="key-settings-search" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-settings-search" aria-label="설정 이름으로 찾기 바로가기">#</a></div>
+<h3>설정 이름으로 찾기</h3><div class="key-combo"><kbd>/ (설정 화면)</kbd></div>
+<p>설정 화면에서 /를 눌러 검색을 시작합니다.</p><p class="shortcut-example"><span>예를 들어</span>/config에서 Editor 설정이 안 보이면 /를 누르고 “Editor”를 검색하세요.</p>
+</article>
+<article class="shortcut-card" id="key-settings-change" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-settings-change" aria-label="설정 바꾸고 닫기 바로가기">#</a></div>
+<h3>설정 바꾸고 닫기</h3><div class="key-combo"><kbd>Enter</kbd><kbd>Space</kbd><kbd>Esc</kbd></div>
+<p>Enter나 Space로 선택한 설정을 바꾸거나 하위 메뉴를 엽니다. Esc로 닫아도 바꾼 값은 이미 저장돼요.</p><p class="shortcut-example"><span>예를 들어</span>선택한 설정을 Space로 바꾸고 Esc로 나와도 변경 내용은 남습니다.</p>
+<p class="shortcut-tip">설정값은 바꾸는 즉시 저장됩니다. Esc는 창만 닫아요.</p></article>
+<article class="shortcut-card" id="key-settings-retry" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-settings-retry" aria-label="사용량을 못 불러왔으면 재시도 바로가기">#</a></div>
+<h3>사용량을 못 불러왔으면 재시도</h3><div class="key-combo"><kbd>r</kbd></div>
+<p>설정·사용량 화면에서 오류로 사용량을 읽지 못했을 때 다시 불러옵니다.</p><p class="shortcut-example"><span>예를 들어</span>사용량 화면에 불러오기 오류가 뜨면 r로 다시 확인하세요.</p>
+</article>
+<article class="shortcut-card" id="key-settings-fix" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-settings-fix" aria-label="사용량 개선 제안을 적용 요청 바로가기">#</a></div>
+<h3>사용량 개선 제안을 적용 요청</h3><div class="key-combo"><kbd>f (/usage 안내가 있을 때)</kbd></div>
+<p>/usage 하단에 fix가 보이면, Claude가 적용할 수 있는 사용량 개선 권고를 현재 세션에 요청으로 보냅니다.</p><p class="shortcut-example"><span>예를 들어</span>사용량을 줄일 제안을 읽고 적용하고 싶다면 f를 누르세요.</p>
+<p class="shortcut-tip">v2.1.305 이상이며, 안내가 있을 때 사용합니다.</p></article>
+<article class="shortcut-card" id="key-plugin" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-plugin" aria-label="플러그인 선택·설치·즐겨찾기 바로가기">#</a></div>
+<h3>플러그인 선택·설치·즐겨찾기</h3><div class="key-combo"><kbd>Space</kbd><kbd>i</kbd><kbd>f</kbd></div>
+<p>플러그인 창에서 Space로 선택, i로 선택한 플러그인 설치, f로 즐겨찾기 상태를 바꿉니다.</p><p class="shortcut-example"><span>예를 들어</span>설치할 플러그인을 Space로 고른 뒤 i를 누르세요. 자주 쓰는 플러그인은 f로 즐겨찾기에 넣을 수 있어요.</p>
+<p class="shortcut-tip">여기의 i와 f는 Shift 없이 누릅니다. 검색 입력칸 안에서는 글자가 입력돼요.</p></article>
+<article class="shortcut-card" id="key-band-toggle" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-band-toggle" aria-label="입력창 위 보조 영역 접기 바로가기">#</a></div>
+<h3>입력창 위 보조 영역 접기</h3><div class="key-combo"><kbd>Ctrl+X → Ctrl+A</kbd></div>
+<p>mod 형태의 플러그인이 입력창 위에 만든 공용 보조 영역을 한 줄로 접거나 다시 펼칩니다.</p><p class="shortcut-example"><span>예를 들어</span>입력창 위 버튼이 자리를 많이 차지하면 접어두고, 필요할 때 다시 펼치세요.</p>
+</article>
+<article class="shortcut-card" id="key-band-focus" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-band-focus" aria-label="보조 영역과 열린 패널로 이동 바로가기">#</a></div>
+<h3>보조 영역과 열린 패널로 이동</h3><div class="key-combo"><kbd>Ctrl+X → Tab</kbd></div>
+<p>키보드로 조작할 위치를 입력창 위 보조 영역으로 옮깁니다. 다시 누르면 열린 패널들을 지나 마지막에는 입력창으로 돌아와요.</p><p class="shortcut-example"><span>예를 들어</span>마우스를 쓰지 않고 보조 패널에 들어가려면 이 조합을 반복해 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-band-controls" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-band-controls" aria-label="보조 영역의 버튼 다루기 바로가기">#</a></div>
+<h3>보조 영역의 버튼 다루기</h3><div class="key-combo"><kbd>Tab</kbd><kbd>Shift+Tab</kbd><kbd>←</kbd><kbd>→</kbd><kbd>Enter</kbd><kbd>Space</kbd><kbd>Esc</kbd></div>
+<p>Tab·→는 다음 항목, Shift+Tab·←는 이전 항목으로 이동합니다. Enter·Space로 실행하고 Esc로 입력창에 돌아와요. Enter는 보조 입력칸의 내용을 보내거나 선택 목록의 옵션을 확정할 때도 씁니다.</p><p class="shortcut-example"><span>예를 들어</span>플러그인이 띄운 버튼을 Tab으로 고른 뒤 Enter로 누르세요.</p>
+<p class="shortcut-tip">←→와 Space는 AbovePrompt의 버튼 등에 초점이 있을 때 이렇게 동작합니다. 글을 쓰는 칸에서는 입력과 커서 이동이 우선해요.</p></article>
+<article class="shortcut-card" id="key-band-select" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-band-select" aria-label="보조 영역 선택 목록 이동 바로가기">#</a></div>
+<h3>보조 영역 선택 목록 이동</h3><div class="key-combo"><kbd>↑</kbd><kbd>↓</kbd></div>
+<p>초점을 둔 선택 목록에서 위아래 항목을 고릅니다.</p><p class="shortcut-example"><span>예를 들어</span>펼친 보조 메뉴에서 ↓로 옵션을 고르고 Enter로 선택하세요.</p>
+</article>
+<article class="shortcut-card" id="key-pane-scroll" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-pane-scroll" aria-label="보조 패널 내용 읽기 바로가기">#</a></div>
+<h3>보조 패널 내용 읽기</h3><div class="key-combo"><kbd>↑</kbd><kbd>↓</kbd><kbd>PageUp</kbd><kbd>PageDown</kbd><kbd>Home</kbd><kbd>End</kbd></div>
+<p>패널에 초점이 있을 때 한 줄, 한 페이지, 처음·끝으로 이동합니다. 입력창 위 공용 영역에도 같은 스크롤 키가 연결돼요.</p><p class="shortcut-example"><span>예를 들어</span>패널의 결과가 화면 아래로 잘렸다면 PageDown으로 넘겨 읽으세요.</p>
+</article>
+<article class="shortcut-card" id="key-pane-resize" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-pane-resize" aria-label="패널 공간 늘리고 줄이기 바로가기">#</a></div>
+<h3>패널 공간 늘리고 줄이기</h3><div class="key-combo"><kbd>Ctrl+X → ←</kbd><kbd>Ctrl+X → ↑</kbd><kbd>Ctrl+X → →</kbd><kbd>Ctrl+X → ↓</kbd></div>
+<p>Ctrl+X 다음 ← 또는 ↑는 패널을 키우고, → 또는 ↓는 줄입니다. 옆 패널은 너비, 위쪽 패널은 높이가 바뀌어요.</p><p class="shortcut-example"><span>예를 들어</span>옆 패널의 결과가 좁게 보여 읽기 어렵다면 Ctrl+X 다음 ←로 넓히세요.</p>
+</article>
+<article class="shortcut-card" id="key-pane-close" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-pane-close" aria-label="이 패널 닫기 바로가기">#</a></div>
+<h3>이 패널 닫기</h3><div class="key-combo"><kbd>Ctrl+X → x</kbd></div>
+<p>현재 보조 패널을 닫습니다. 패널 안의 입력칸에 초점이 있어도 사용할 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span>다 읽은 보조 패널을 화면에서 치우고 싶을 때 쓰세요.</p>
+<p class="shortcut-tip">두 번째 x는 Ctrl을 떼고 누릅니다. 패널 안에서도 Tab·Shift+Tab·Enter·Esc로 컨트롤을 다룰 수 있어요.</p></article>
+</section>
+<section class="shortcut-group" id="group-prefix"><div class="group-heading"><span class="section-num">12</span><div><h2>한 글자로 여는 입력 기능</h2><p>입력창 맨 앞에 /나 !를 적으면 명령 메뉴나 셸 모드로 들어갑니다. 파일을 지정할 때는 @를 써요.</p></div></div>
+<article class="shortcut-card" id="key-slash" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-slash" aria-label="명령이나 스킬 찾기 바로가기">#</a></div>
+<h3>명령이나 스킬 찾기</h3><div class="key-combo"><kbd>/ (입력창 맨 앞)</kbd></div>
+<p>입력창 첫 글자로 /를 적으면 명령과 스킬을 고를 수 있습니다.</p><p class="shortcut-example"><span>예를 들어</span><code>/</code>를 적어 메뉴를 연 뒤 /compact를 찾으세요.</p>
+<p class="shortcut-tip">문장 중간의 /로 뜬 후보도 Tab으로 넣을 수 있지만, 명령 실행은 맨 앞에 있을 때 적용됩니다.</p></article>
+<article class="shortcut-card" id="key-shell" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-shell" aria-label="터미널 명령 바로 실행 바로가기">#</a></div>
+<h3>터미널 명령 바로 실행</h3><div class="key-combo"><kbd>! (입력창 맨 앞)</kbd></div>
+<p><code>!</code>로 시작하면 셸 모드에서 명령을 직접 실행합니다. 출력이 대화에 들어가고 Claude가 이어서 설명할 수 있어요.</p><p class="shortcut-example"><span>예를 들어</span><code>! git status</code>를 실행해 현재 파일 변경 상태를 확인하세요.</p>
+<p class="shortcut-tip">적은 명령은 Claude의 해석이나 승인을 기다리지 않고 실행됩니다.</p></article>
+<article class="shortcut-card" id="key-shell-leave" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-shell-leave" aria-label="셸 모드에서 요청 모드로 바로가기">#</a></div>
+<h3>셸 모드에서 요청 모드로</h3><div class="key-combo"><kbd>Esc</kbd><kbd>Backspace</kbd><kbd>Ctrl+U (빈 셸 입력창)</kbd></div>
+<p><code>!</code> 셸 모드의 입력 내용이 비었을 때 일반 입력으로 돌아옵니다.</p><p class="shortcut-example"><span>예를 들어</span>셸 명령을 적으려다 질문으로 바꾸고 싶어졌다면, 글을 비우고 Esc를 누르세요.</p>
+<p class="shortcut-tip">셸 모드의 Tab은 이전 <code>!</code> 명령이나 슬래시가 든 파일 경로도 자동완성합니다.</p></article>
+<article class="shortcut-card" id="key-mention" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-mention" aria-label="이 파일을 참고해줘 바로가기">#</a></div>
+<h3>이 파일을 참고해줘</h3><div class="key-combo"><kbd>@</kbd></div>
+<p>파일 경로 자동완성을 엽니다. 다른 세션과 메시지를 주고받는 기능이 활성화돼 있으면, @ 뒤에 한 글자 이상 적었을 때 다른 실행 중 세션도 후보로 나와요.</p><p class="shortcut-example"><span>예를 들어</span><code>@reports/</code>에서 매출 파일을 고른 다음 “이 표를 요약해줘”라고 이어 쓰세요.</p>
+<p class="shortcut-tip">세션 후보는 v2.1.232 이상이며 해당 기능을 사용할 수 있을 때 나타납니다.</p></article>
+<article class="shortcut-card" id="key-emoji" data-top="false" data-vim="false">
+<div class="shortcut-meta"><span>KEYBOARD</span><a href="#key-emoji" aria-label="이름으로 이모지 넣기 바로가기">#</a></div>
+<h3>이름으로 이모지 넣기</h3><div class="key-combo"><kbd>:</kbd></div>
+<p><code>:name:</code> 형식으로 이모지를 넣거나 콜론 뒤 두 글자 이상 적어 후보를 봅니다.</p><p class="shortcut-example"><span>예를 들어</span>가벼운 안내문 초안에 <code>:smile:</code>을 넣어보세요.</p>
+<p class="shortcut-tip">v2.1.217 이상에서 지원합니다.</p></article>
+</section>
+<section class="shortcut-group" id="group-vim-move"><div class="group-heading"><span class="section-num">13</span><div><h2>Vim: 입력 방식과 이동</h2><p>Vim 편집은 /config의 Editor mode에서 켭니다. Vim의 대문자 명령은 Shift를 눌러 입력하고, gg처럼 붙여 적힌 글자는 차례로 누르세요.</p></div></div>
+<article class="shortcut-card" id="key-vim-normal" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-normal" aria-label="입력을 멈추고 이동 모드로 바로가기">#</a></div>
+<h3>입력을 멈추고 이동 모드로</h3><div class="key-combo"><kbd>Esc</kbd><kbd>Ctrl+[</kbd></div>
+<p>INSERT 또는 VISUAL에서 NORMAL 모드로 나옵니다. 이 모드에서는 글자 키가 이동이나 편집 명령이 돼요.</p><p class="shortcut-example"><span>예를 들어</span>단어를 고치려면 Esc로 NORMAL에 들어간 뒤 w로 이동하세요.</p>
+<p class="shortcut-tip">Kitty 키보드 프로토콜에서 Ctrl+[를 쓰려면 v2.1.242 이상이어야 합니다. INSERT·VISUAL에서 Esc를 누르면 먼저 NORMAL로 바뀌어요.</p></article>
+<article class="shortcut-card" id="key-vim-insert" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-insert" aria-label="어디부터 글을 쓸까? 바로가기">#</a></div>
+<h3>어디부터 글을 쓸까?</h3><div class="key-combo"><kbd>i</kbd><kbd>I</kbd><kbd>a</kbd><kbd>A</kbd></div>
+<p>i는 커서 앞, I는 줄 처음, a는 커서 뒤, A는 줄 끝에서 INSERT 모드로 들어갑니다.</p><p class="shortcut-example"><span>예를 들어</span>줄 끝에 “표로 정리해줘”를 붙이려면 A를 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-newline" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-newline" aria-label="위나 아래에 새 줄 열기 바로가기">#</a></div>
+<h3>위나 아래에 새 줄 열기</h3><div class="key-combo"><kbd>o</kbd><kbd>O</kbd></div>
+<p>o는 현재 줄 아래, O는 위에 빈 줄을 만들고 글을 쓰기 시작합니다.</p><p class="shortcut-example"><span>예를 들어</span>조건 목록에 한 줄을 끼워 넣으려면 그 위 줄에서 o를 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-visual" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-visual" aria-label="글자나 줄 단위로 선택 바로가기">#</a></div>
+<h3>글자나 줄 단위로 선택</h3><div class="key-combo"><kbd>v</kbd><kbd>V</kbd></div>
+<p>v는 글자 단위, V는 줄 단위 VISUAL 모드를 시작합니다.</p><p class="shortcut-example"><span>예를 들어</span>한 문장 일부만 고치려면 v, 조건 한 줄 전체를 다루려면 V를 쓰세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-arrows" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-arrows" aria-label="손을 옮기지 않고 이동 바로가기">#</a></div>
+<h3>손을 옮기지 않고 이동</h3><div class="key-combo"><kbd>h</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd><kbd>Space</kbd></div>
+<p>h는 왼쪽, j는 아래, k는 위, l·Space는 오른쪽으로 이동합니다.</p><p class="shortcut-example"><span>예를 들어</span>방향키 대신 h와 l로 커서를 문장 안에서 옮기세요.</p>
+<p class="shortcut-tip">입력의 위아래 끝에서는 j·k 또는 ↑↓로 입력 기록을 오갑니다. k·↑는 이전, j·↓는 다음 기록이에요.</p></article>
+<article class="shortcut-card" id="key-vim-word" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-word" aria-label="단어 단위로 이동 바로가기">#</a></div>
+<h3>단어 단위로 이동</h3><div class="key-combo"><kbd>w</kbd><kbd>e</kbd><kbd>b</kbd></div>
+<p>w는 다음 단어 처음, e는 단어 끝, b는 이전 단어 처음으로 갑니다.</p><p class="shortcut-example"><span>예를 들어</span>긴 요청에서 잘못 적은 단어를 b로 찾아가세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-line" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-line" aria-label="줄의 처음·끝·본문 처음으로 바로가기">#</a></div>
+<h3>줄의 처음·끝·본문 처음으로</h3><div class="key-combo"><kbd>0</kbd><kbd>$</kbd><kbd>^</kbd></div>
+<p>0은 줄 처음, $는 줄 끝, ^는 앞쪽 공백 다음 첫 글자로 이동합니다.</p><p class="shortcut-example"><span>예를 들어</span>들여쓰기된 목록의 글자 시작으로 가려면 ^를 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-input-edge" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-input-edge" aria-label="입력 전체의 앞과 뒤로 바로가기">#</a></div>
+<h3>입력 전체의 앞과 뒤로</h3><div class="key-combo"><kbd>gg</kbd><kbd>G</kbd></div>
+<p>gg는 입력 맨 처음, G는 마지막 줄 처음으로 이동합니다.</p><p class="shortcut-example"><span>예를 들어</span>여러 문단짜리 요청의 첫 조건으로 돌아가려면 g를 두 번 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-find" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-find" aria-label="이 줄의 특정 글자로 바로 바로가기">#</a></div>
+<h3>이 줄의 특정 글자로 바로</h3><div class="key-combo"><kbd>f{글자}</kbd><kbd>F{글자}</kbd><kbd>t{글자}</kbd><kbd>T{글자}</kbd></div>
+<p>현재 줄에서 f는 커서 뒤의 해당 글자, F는 앞의 해당 글자로 이동해요. t는 뒤쪽 글자 직전, T는 앞쪽 글자 직후에 멈춥니다.</p><p class="shortcut-example"><span>예를 들어</span>같은 줄에서 다음 쉼표로 가려면 f 다음 쉼표를 누르세요.</p>
+<p class="shortcut-tip">{글자}는 누를 실제 글자 자리입니다. 중괄호까지 적지 않아요.</p></article>
+<article class="shortcut-card" id="key-vim-repeat-find" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-repeat-find" aria-label="방금 찾은 글자 다시 찾기 바로가기">#</a></div>
+<h3>방금 찾은 글자 다시 찾기</h3><div class="key-combo"><kbd>;</kbd><kbd>,</kbd></div>
+<p>;는 마지막 f·F·t·T 이동을 같은 방향으로 반복하고, 쉼표는 반대 방향으로 반복합니다.</p><p class="shortcut-example"><span>예를 들어</span>f 다음 쉼표를 눌러 첫 쉼표에 갔다면, ;로 다음 쉼표를 찾고 ,로 반대쪽을 찾으세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-bracket" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-bracket" aria-label="짝이 되는 괄호로 이동 바로가기">#</a></div>
+<h3>짝이 되는 괄호로 이동</h3><div class="key-combo"><kbd>%</kbd></div>
+<p>(), [], {}의 반대쪽 괄호로 갑니다. 커서가 괄호에 없으면 같은 줄의 다음 괄호부터 찾습니다.</p><p class="shortcut-example"><span>예를 들어</span>긴 JSON 조건에서 여는 중괄호와 닫는 중괄호를 오가며 확인하세요.</p>
+<p class="shortcut-tip">v2.1.301 이상입니다.</p></article>
+<article class="shortcut-card" id="key-vim-history" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-history" aria-label="기록 검색과 도움말 바로가기">#</a></div>
+<h3>기록 검색과 도움말</h3><div class="key-combo"><kbd>/</kbd><kbd>? (NORMAL 모드)</kbd></div>
+<p>NORMAL에서 /는 역방향 기록 검색을 열고, ?는 도움말을 엽니다.</p><p class="shortcut-example"><span>예를 들어</span>예전 요청을 찾으려면 /를, 슬래시 명령을 적으려면 Esc 다음 i 다음 /를 누르세요.</p>
+<p class="shortcut-tip">일반 입력창에서 /로 명령을 여는 동작과 달라요.</p></article>
+</section>
+<section class="shortcut-group" id="group-vim-edit"><div class="group-heading"><span class="section-num">14</span><div><h2>Vim: 지우고 고치고 붙이기</h2><p>아래 키는 NORMAL 모드 기준입니다. d는 삭제, c는 지우고 새로 입력, y는 복사를 뜻해요. 예시의 영문 키는 차례로 누릅니다.</p></div></div>
+<article class="shortcut-card" id="key-vim-char" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-char" aria-label="한 글자만 고치기 바로가기">#</a></div>
+<h3>한 글자만 고치기</h3><div class="key-combo"><kbd>x</kbd><kbd>r{글자}</kbd></div>
+<p>x는 커서의 글자를 지우고, r 다음 글자는 현재 글자를 그 글자로 바꿉니다.</p><p class="shortcut-example"><span>예를 들어</span>영문·숫자로 된 코드 한 자리만 틀렸다면 그 글자에서 r을 누르고 올바른 글자를 적으세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-delete-line" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-delete-line" aria-label="줄 전체나 뒤쪽 지우기 바로가기">#</a></div>
+<h3>줄 전체나 뒤쪽 지우기</h3><div class="key-combo"><kbd>dd</kbd><kbd>D</kbd></div>
+<p>dd는 현재 줄, D는 커서부터 줄 끝까지 지웁니다.</p><p class="shortcut-example"><span>예를 들어</span>필요 없어진 조건 한 줄은 d를 두 번 눌러 빼세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-delete-word" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-delete-word" aria-label="단어 범위 지우기 바로가기">#</a></div>
+<h3>단어 범위 지우기</h3><div class="key-combo"><kbd>dw</kbd><kbd>de</kbd><kbd>db</kbd></div>
+<p>dw는 다음 단어 처음까지, de는 단어 끝까지, db는 앞쪽 단어로 이동하는 범위를 지웁니다.</p><p class="shortcut-example"><span>예를 들어</span>영어 요청에서 잘못 쓴 단어를 dw로 지우세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-delete-find" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-delete-find" aria-label="특정 글자까지 한 번에 지우기 바로가기">#</a></div>
+<h3>특정 글자까지 한 번에 지우기</h3><div class="key-combo"><kbd>df{글자}</kbd><kbd>dt{글자}</kbd></div>
+<p>df는 다음 해당 글자를 포함해서 지우고, dt는 그 글자 직전까지 지웁니다.</p><p class="shortcut-example"><span>예를 들어</span>쉼표 앞의 설명을 걷어내되 쉼표는 남기려면 d, t, 쉼표를 차례로 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-delete-lines" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-delete-lines" aria-label="여러 줄 범위 지우기 바로가기">#</a></div>
+<h3>여러 줄 범위 지우기</h3><div class="key-combo"><kbd>dj</kbd><kbd>dk</kbd><kbd>dgg</kbd><kbd>dG</kbd></div>
+<p>dj는 현재 줄과 아래 줄, dk는 현재 줄과 위 줄을 지웁니다. dgg는 첫 줄까지, dG는 마지막 줄까지 지워요.</p><p class="shortcut-example"><span>예를 들어</span>요청 뒷부분을 통째로 다시 쓰고 싶다면 해당 줄에서 dG를 쓰세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-to-start" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-to-start" aria-label="줄 앞부분 삭제·수정·복사 바로가기">#</a></div>
+<h3>줄 앞부분 삭제·수정·복사</h3><div class="key-combo"><kbd>d0</kbd><kbd>c0</kbd><kbd>y0</kbd></div>
+<p>커서부터 줄 처음까지 d0는 삭제, c0는 지우고 입력, y0는 복사합니다.</p><p class="shortcut-example"><span>예를 들어</span>앞부분의 조건만 다시 쓰려면 c0 뒤 새 문장을 입력하세요.</p>
+<p class="shortcut-tip">v2.1.281 이상입니다.</p></article>
+<article class="shortcut-card" id="key-vim-through-bracket" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-through-bracket" aria-label="짝 괄호까지 삭제·수정·복사 바로가기">#</a></div>
+<h3>짝 괄호까지 삭제·수정·복사</h3><div class="key-combo"><kbd>d%</kbd><kbd>c%</kbd><kbd>y%</kbd></div>
+<p>%로 이동할 짝 괄호까지의 범위를 삭제하거나 고치거나 복사합니다.</p><p class="shortcut-example"><span>예를 들어</span>커서를 여는 괄호에 두고 y%로 괄호 묶음을 복사하세요.</p>
+<p class="shortcut-tip">v2.1.301 이상. 괄호 안쪽만 고치려면 아래의 ci( 같은 텍스트 객체도 쓸 수 있어요.</p></article>
+<article class="shortcut-card" id="key-vim-change" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-change" aria-label="지우고 바로 새로 쓰기 바로가기">#</a></div>
+<h3>지우고 바로 새로 쓰기</h3><div class="key-combo"><kbd>cc</kbd><kbd>C</kbd><kbd>cw</kbd><kbd>ce</kbd><kbd>cb</kbd></div>
+<p>cc는 현재 줄, C는 커서부터 줄 끝을 지우고 바로 입력을 시작합니다. cw·ce·cb는 각각 단어, 단어 끝, 앞쪽 단어 범위를 고칠 때 씁니다.</p><p class="shortcut-example"><span>예를 들어</span>조건 한 줄을 새로 쓰려면 cc를 누르고 새 문장을 적으세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-substitute" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-substitute" aria-label="한 글자나 한 줄을 비우고 입력 바로가기">#</a></div>
+<h3>한 글자나 한 줄을 비우고 입력</h3><div class="key-combo"><kbd>s</kbd><kbd>S</kbd></div>
+<p>s는 커서의 한 글자를, S는 현재 줄을 지우고 INSERT 모드로 들어갑니다.</p><p class="shortcut-example"><span>예를 들어</span>한 글자를 지운 뒤 그 자리부터 새로 쓰고 싶다면 s를 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-yank" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-yank" aria-label="줄이나 단어 복사 바로가기">#</a></div>
+<h3>줄이나 단어 복사</h3><div class="key-combo"><kbd>yy</kbd><kbd>Y</kbd><kbd>yw</kbd><kbd>ye</kbd><kbd>yb</kbd></div>
+<p>yy·Y는 현재 줄, yw·ye·yb는 각 단어 이동 범위를 복사합니다.</p><p class="shortcut-example"><span>예를 들어</span>비슷한 조건을 하나 더 적으려면 yy로 줄을 복사하세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-paste" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-paste" aria-label="복사·삭제해둔 글 붙이기 바로가기">#</a></div>
+<h3>복사·삭제해둔 글 붙이기</h3><div class="key-combo"><kbd>p</kbd><kbd>P</kbd></div>
+<p>p는 커서 뒤, P는 커서 앞에 보관된 글을 붙입니다.</p><p class="shortcut-example"><span>예를 들어</span>yy로 복사한 줄을 p로 붙인 뒤 날짜만 고치세요.</p>
+<p class="shortcut-tip">Vim에서 복사하거나 지운 내용을 가져옵니다. 클립보드에 있는 글을 붙이는 키와는 달라요.</p></article>
+<article class="shortcut-card" id="key-vim-indent" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-indent" aria-label="줄 들여쓰기 맞추기 바로가기">#</a></div>
+<h3>줄 들여쓰기 맞추기</h3><div class="key-combo"><kbd>&gt;&gt;</kbd><kbd>&lt;&lt;</kbd></div>
+<p>&gt;&gt;는 들여쓰기를 늘리고, &lt;&lt;는 줄입니다.</p><p class="shortcut-example"><span>예를 들어</span>조건 목록을 한 단계 안으로 넣으려면 &gt;를 두 번 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-join" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-join" aria-label="다음 줄과 이어 붙이기 바로가기">#</a></div>
+<h3>다음 줄과 이어 붙이기</h3><div class="key-combo"><kbd>J</kbd></div>
+<p>현재 줄과 다음 줄을 합칩니다.</p><p class="shortcut-example"><span>예를 들어</span>붙여넣은 요청이 두 줄로 나뉘었다면 앞줄에서 J로 합치세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-undo-repeat" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-undo-repeat" aria-label="취소하거나 같은 수정 반복 바로가기">#</a></div>
+<h3>취소하거나 같은 수정 반복</h3><div class="key-combo"><kbd>u</kbd><kbd>.</kbd></div>
+<p>u는 편집 취소, 마침표는 마지막 변경을 반복합니다.</p><p class="shortcut-example"><span>예를 들어</span>단어를 고친 뒤 같은 수정을 다시 해야 한다면, 다음 위치로 옮겨 .을 누르세요.</p>
+</article>
+</section>
+<section class="shortcut-group" id="group-vim-object"><div class="group-heading"><span class="section-num">15</span><div><h2>Vim: 단어·따옴표·괄호 안쪽만 고치기</h2><p>텍스트 객체는 고칠 범위를 뜻해요. d·c·y 뒤에 붙여 쓰면 됩니다. ci&quot;는 큰따옴표 안을 비우고 새로 적고, ya(는 괄호를 포함해 복사하는 식이에요.</p></div></div>
+<article class="shortcut-card" id="key-vim-object-word" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-object-word" aria-label="단어 안쪽과 주변까지 바로가기">#</a></div>
+<h3>단어 안쪽과 주변까지</h3><div class="key-combo"><kbd>iw</kbd><kbd>aw</kbd><kbd>iW</kbd><kbd>aW</kbd></div>
+<p>iw는 단어 안쪽, aw는 주변 공백을 포함한 단어입니다. iW·aW는 공백으로 나뉜 덩어리 전체를 다룹니다.</p><p class="shortcut-example"><span>예를 들어</span>ciw로 현재 단어만 바꾸세요. 공백 없는 파일 경로를 통째로 지울 때는 daW를 쓸 수 있어요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-object-quotes" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-object-quotes" aria-label="따옴표 안쪽과 따옴표째 바로가기">#</a></div>
+<h3>따옴표 안쪽과 따옴표째</h3><div class="key-combo"><kbd>i&quot;</kbd><kbd>a&quot;</kbd><kbd>i&#x27;</kbd><kbd>a&#x27;</kbd></div>
+<p>i는 따옴표 안 내용만, a는 따옴표를 포함해 다룹니다. 큰따옴표와 작은따옴표 모두 지원해요.</p><p class="shortcut-example"><span>예를 들어</span><code>고객사 이름을 &quot;A사&quot;로 표시</code>라고 적었다면, 따옴표 안에 커서를 두고 ci&quot;를 누르세요. 새 이름을 적어도 따옴표는 남습니다.</p>
+</article>
+<article class="shortcut-card" id="key-vim-object-brackets" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-object-brackets" aria-label="괄호 속 내용만 다루기 바로가기">#</a></div>
+<h3>괄호 속 내용만 다루기</h3><div class="key-combo"><kbd>i(</kbd><kbd>a(</kbd><kbd>i[</kbd><kbd>a[</kbd><kbd>i{</kbd><kbd>a{</kbd></div>
+<p>i는 괄호 안쪽, a는 괄호를 포함한 묶음입니다. 소괄호, 대괄호, 중괄호를 지원합니다.</p><p class="shortcut-example"><span>예를 들어</span>부연 설명만 바꿀 때는 ci(로 괄호 안을 비우고 쓰세요. JSON 묶음을 괄호째 복사하려면 ya{를 누르면 됩니다.</p>
+</article>
+</section>
+<section class="shortcut-group" id="group-vim-selection"><div class="group-heading"><span class="section-num">16</span><div><h2>Vim: 선택 영역을 한꺼번에 편집하기</h2><p>v 또는 V로 선택한 뒤 아래 키를 누릅니다. VISUAL 모드의 u는 소문자 변환이므로 NORMAL 모드의 편집 취소와 다릅니다.</p></div></div>
+<article class="shortcut-card" id="key-vim-selection-edit" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-selection-edit" aria-label="고른 부분 삭제·복사·교체 바로가기">#</a></div>
+<h3>고른 부분 삭제·복사·교체</h3><div class="key-combo"><kbd>d</kbd><kbd>x</kbd><kbd>y</kbd><kbd>c</kbd><kbd>s</kbd><kbd>p</kbd></div>
+<p>d·x는 선택 삭제, y는 복사, c·s는 지우고 입력, p는 보관된 글로 선택 영역을 교체합니다.</p><p class="shortcut-example"><span>예를 들어</span>v로 조건 일부를 고른 뒤 c를 눌러 새 조건으로 바꾸세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-selection-replace" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-selection-replace" aria-label="선택한 글자를 모두 같은 글자로 바로가기">#</a></div>
+<h3>선택한 글자를 모두 같은 글자로</h3><div class="key-combo"><kbd>r{글자}</kbd></div>
+<p>선택 영역의 글자 각각을 지정한 글자로 바꿉니다.</p><p class="shortcut-example"><span>예를 들어</span>짧은 선택 영역을 모두 x로 채우려면 r 다음 x를 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-selection-case" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-selection-case" aria-label="대소문자 한 번에 바꾸기 바로가기">#</a></div>
+<h3>대소문자 한 번에 바꾸기</h3><div class="key-combo"><kbd>~</kbd><kbd>u</kbd><kbd>U</kbd></div>
+<p>~는 대소문자를 뒤집고, u는 소문자, U는 대문자로 바꿉니다.</p><p class="shortcut-example"><span>예를 들어</span>선택한 영문 약어를 대문자로 맞추려면 U를 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-selection-indent" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-selection-indent" aria-label="여러 줄 들여쓰기와 합치기 바로가기">#</a></div>
+<h3>여러 줄 들여쓰기와 합치기</h3><div class="key-combo"><kbd>&gt;</kbd><kbd>&lt;</kbd><kbd>J</kbd></div>
+<p>&gt;·&lt;는 선택한 줄의 들여쓰기를 조절하고 J는 선택한 줄을 합칩니다.</p><p class="shortcut-example"><span>예를 들어</span>조건 몇 줄의 들여쓰기를 맞추려면 V로 줄들을 고른 뒤 &gt;를 누르세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-selection-anchor" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-selection-anchor" aria-label="선택 시작점 쪽으로 커서 옮기기 바로가기">#</a></div>
+<h3>선택 시작점 쪽으로 커서 옮기기</h3><div class="key-combo"><kbd>o</kbd></div>
+<p>커서와 선택 시작점의 위치를 바꿉니다.</p><p class="shortcut-example"><span>예를 들어</span>선택 끝은 맞는데 시작이 덜 잡혔다면, o로 반대 끝에 가서 범위를 늘리세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-selection-object" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-selection-object" aria-label="선택도 단어·괄호 단위로 바로가기">#</a></div>
+<h3>선택도 단어·괄호 단위로</h3><div class="key-combo"><kbd>iw</kbd><kbd>aw</kbd><kbd>i&quot; 등</kbd></div>
+<p>VISUAL 모드에서도 텍스트 객체로 단어, 따옴표, 괄호 범위를 고를 수 있습니다.</p><p class="shortcut-example"><span>예를 들어</span>v 다음 i&quot;로 큰따옴표 안쪽을 골라 y로 복사하세요.</p>
+</article>
+<article class="shortcut-card" id="key-vim-selection-toggle" data-top="false" data-vim="true">
+<div class="shortcut-meta"><span>VIM</span><a href="#key-vim-selection-toggle" aria-label="선택 방식 바꾸거나 나가기 바로가기">#</a></div>
+<h3>선택 방식 바꾸거나 나가기</h3><div class="key-combo"><kbd>v</kbd><kbd>V</kbd><kbd>Esc</kbd></div>
+<p>글자 선택과 줄 선택을 전환하거나, 같은 선택 모드의 키를 다시 눌러 나옵니다. Esc도 NORMAL로 나와요.</p><p class="shortcut-example"><span>예를 들어</span>글자 일부를 고르다 줄 전체가 필요해지면 V로 바꾸세요.</p>
+<p class="shortcut-tip">Ctrl+V로 사각형을 고르는 블록 VISUAL은 지원하지 않아요. 질문의 Other 입력칸에서 글을 쓰던 중이라면 Esc는 우선 NORMAL로 바꾸고, 한 번 더 누르면 질문을 취소합니다.</p></article>
+</section><section id="key-settings" class="prose shortcut-settings"><p class="section-kicker">내 환경에 맞추기</p><h2>키가 안 먹거나, 바꾸고 싶다면</h2><p>키가 예상과 다르게 동작하면 지금 어느 창을 보고 있는지 확인해보세요. <code>Ctrl+S</code> 하나도 입력창에서는 초안 보관, 기록 검색에서는 범위 변경, 에이전트 보기에서는 세션 묶기입니다.</p><h3>Mac과 터미널에서 자주 걸리는 부분</h3><ul><li>Mac에서 Ctrl을 전부 Cmd로 바꾸면 안 됩니다. Ctrl+C는 Control+C, Option+P는 Option+P로 눌러요.</li><li>Option 단축키가 문자를 입력한다면 터미널에서 Option as Meta를 켜세요. Option+T는 이 설정 없이도 작동합니다.</li><li>MacBook의 Fn+↑·↓는 PageUp·PageDown, Fn+←·→는 Home·End입니다. Ctrl+Fn+→는 macOS가 가로채므로 맨 아래 이동은 화면 버튼이나 다른 키를 쓰세요.</li><li>tmux의 Ctrl+B는 접두 키라 두 번 눌러 보내야 합니다. GNU screen에서는 Ctrl+A가 겹칠 수 있어요.</li><li>Shift+Enter나 Ctrl+Enter가 구분되지 않는 터미널이라면 줄바꿈은 Ctrl+J, 즉시 보내기는 Ctrl+X 다음 Ctrl+S를 쓰세요.</li></ul><h3>자주 쓰는 동작에 다른 키 붙이기</h3><p><code>/keybindings</code>를 실행하면 <code>~/.claude/keybindings.json</code>을 만들거나 엽니다. 저장하면 재시작 없이 적용돼요. 아래 예시를 직접 추가하면 입력창에서 Alt+G, Mac에서는 Option+G로 /compact를 실행할 수 있어요. 기본으로 지정된 키는 아닙니다.</p><div class="example"><div class="example-bar"><span>keybindings.json · 사용자 설정 예시</span><button class="copy-example" type="button" data-copy="binding-example">복사</button></div><pre><code id="binding-example">{
+  "bindings": [
+    {
+      "context": "Chat",
+      "bindings": {
+        "meta+g": "command:compact"
+      }
+    }
+  ]
+}</code></pre></div><p>이미 설정 파일이 있다면 기존 <code>bindings</code> 배열에 이 블록을 합쳐주세요. <code>meta</code>는 Mac에서 Option, 다른 환경에서 Alt를 뜻합니다. 키 이름은 영문으로, Shift를 써야 한다면 <code>shift+g</code>처럼 명시해요.</p><p>일반 설정의 키 이름은 대소문자를 구별하지 않습니다. 그래서 플러그인 메뉴의 i·f 같은 키는 Shift 없이 눌러요. 반면 Vim, 전체 화면 대화 상세 보기처럼 대소문자별 동작을 안내하는 화면에서는 G·N 등의 대문자를 구별해야 합니다.</p><h3>바꿀 수 없는 키와 기본 키가 없는 동작</h3><p><code>Ctrl+C</code>와 <code>Ctrl+D</code>는 예약된 중단·종료 키입니다. <code>Ctrl+M</code>은 Enter, <code>Ctrl+[</code>는 Esc, <code>Ctrl+I</code>는 Tab으로 전달됩니다. <code>Ctrl+H</code>는 터미널이 보내는 Backspace 신호이며 Windows 설정에 따라 해석이 달라요. Caps Lock은 터미널 앱에 전달되지 않습니다.</p><p>Alt+B·F·D·Y 같은 단어 이동·삭제 기록 키는 이 설정 파일로 바꿀 수 없습니다. Vim의 이동·편집 키 자체도 이 파일로 바꾸지 못합니다. INSERT에서 <code>jj</code> 같은 두 글자를 Esc로 쓰고 싶다면 별도 <code>vimInsertModeRemaps</code> 설정이 필요해요. 기본 설정에서 jj가 Esc인 것은 아닙니다.</p><p>다음 패널로 전환하기, 선택 영역 지우기, 한 화면 스크롤 같은 일부 동작은 기본 키가 없습니다. <code>unbound</code>는 “키를 아직 배정하지 않았다”는 뜻이에요. 마우스 휠의 위·아래 스크롤도 키보드 조합과는 별개입니다.</p><div class="guide-callout"><span aria-hidden="true">✳</span><div><strong>키를 눌렀는데 화면이 다르다면</strong><p>빈 입력창에서 ?를 눌러 현재 쓸 수 있는 키를 확인하세요. 전체 화면의 대화 상세 보기에서도 ?로 그 화면의 도움말을 열 수 있습니다.</p></div></div><p class="last-updated">2026.10.26 · 설치 버전과 터미널에 따라 사용할 수 있는 키가 달라질 수 있어요.</p><a class="button secondary" href="../notes.html">← 다른 노트 보기</a></section>
+<aside class="related-note prose" aria-label="함께 읽을 노트"><p class="section-kicker">함께 읽기</p><h2><a href="./claude-code-commands.html">Claude Code 명령어도 찾아보세요</a></h2><p>/btw로 잠깐 질문하기, /compact로 대화 정리하기처럼 입력해서 쓰는 명령의 뜻과 예시를 담았어요.</p></aside></div></div></div></main><footer class="footer"><div class="wrap"><div class="footer-top"><a class="logo" href="../index.html">emberjihyo<span>✳</span></a><div class="footer-links"><a href="../notes.html">Notes</a><a href="https://www.instagram.com/emberjihyo/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="#main">맨 위로 ↑</a></div></div><div class="footer-bottom micro"><span>© 2026 EMBERJIHYO</span><span>Notes from London · by Ember</span></div></div></footer><div id="copy-status" class="copy-status" role="status" aria-live="polite"></div><script src="./claude-code-shortcuts.js" defer></script><!-- Editorial references, checked 2026-10-26:
+https://code.claude.com/docs/en/interactive-mode
+https://code.claude.com/docs/en/keybindings
+https://code.claude.com/docs/en/fullscreen
+https://code.claude.com/docs/en/checkpointing
+https://code.claude.com/docs/en/agent-view
+Scope: terminal default bindings, contextual controls, input prefixes and supported Vim keys.
+Unbound actions, obsolete bindings and user-defined examples are not presented as defaults.
+--></body></html>

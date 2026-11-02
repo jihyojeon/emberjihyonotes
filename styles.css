@@ -35,3 +35,42 @@ html[lang=ko] .section h2{font-weight:600;line-height:1.5}
 .hero h1.tools-headline{font-size:clamp(38px,6.1vw,80px);line-height:1.12;letter-spacing:-.06em}
 .tools-headline>span{display:block;white-space:nowrap}
 @media(max-width:650px){.hero h1.tools-headline{font-size:clamp(32px,10.5vw,62px)}}
+
+/* Cover-led home page: real reel covers carry the page; chrome star stays as the one brand mark. */
+.home-kicker{color:#5a6271;margin:0 0 22px}
+.home-hero{padding:92px 0 76px;border-bottom:1px solid var(--line);overflow:hidden}
+.home-hero-grid{display:grid;grid-template-columns:1fr 300px;align-items:center;gap:40px}
+.home-hero h1{font-size:clamp(40px,5.6vw,74px);font-weight:600;line-height:1.18;letter-spacing:-.055em;margin:0;word-break:keep-all}
+.home-hero h1 span{color:var(--muted)}
+.home-intro{font-size:17px;line-height:1.85;letter-spacing:-.025em;color:#565e6a;max-width:520px;margin:26px 0 0;word-break:keep-all}
+.home-hero .hero-actions{margin:32px 0 0}
+.home-star{width:300px;height:300px;filter:drop-shadow(0 24px 16px #46506c20);animation:float 7s ease-in-out infinite}
+.feed{padding:72px 0 88px;border-bottom:1px solid var(--line)}
+.feed-head{display:flex;justify-content:space-between;align-items:baseline;gap:20px;margin-bottom:32px}
+.feed-head h2{font-size:32px;font-weight:600;letter-spacing:-.045em;margin:0}
+.feed-more{font-size:13px;color:var(--blue);white-space:nowrap}
+.tiles{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:36px 20px}
+.tile{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.tile img,.tile-more-card{width:100%;height:auto;aspect-ratio:9/16;object-fit:cover;border-radius:12px;border:1px solid #d6dae1;background:#e8ebef;transition:transform .2s,box-shadow .2s}
+.tile:hover img,.tile:hover .tile-more-card{transform:translateY(-4px);box-shadow:0 12px 28px #2a324218}
+.tile img{margin-bottom:6px}
+.tile strong{font-size:16px;font-weight:600;line-height:1.45;letter-spacing:-.035em;word-break:keep-all}
+.tile:hover strong{color:var(--blue)}
+.tile small{font-size:12px;color:#7a8392}
+.tile small.is-note{color:var(--blue)}
+.tile-more-card{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;margin-bottom:6px;background:linear-gradient(141deg,#e8ebef,#fcfdfe 40%,#e3e6ee 70%,#ebd8f366)}
+.tile-more-card svg{width:46%;filter:drop-shadow(0 14px 10px #46506c20)}
+.tile-more-card b{font-size:14px;font-weight:550;color:#4d5666}
+.pill{display:inline-block;border:1px solid #c9d0dc;background:#f8f9fb;border-radius:999px;padding:5px 11px;font-size:10px;letter-spacing:.08em;font-weight:500;color:#5d6880}
+.pill.lilac{background:#ebd8f3;border-color:#dcc6e8;color:#5d4a6b}
+.home-about{padding:88px 0}
+.home-about .about-copy{max-width:640px}
+.home-profile{display:inline-flex;align-items:center;gap:16px;margin-bottom:30px}
+.home-profile img{width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid #d6dae1;box-shadow:0 0 0 4px var(--paper),0 0 0 5px #c9d0dc}
+.home-profile span{display:flex;flex-direction:column;gap:3px}
+.home-profile b{font-size:17px;font-weight:600;letter-spacing:-.03em}
+.home-profile small{font-size:13px;color:var(--blue)}
+.home-about h2{font-size:38px;font-weight:600;line-height:1.45;letter-spacing:-.045em;margin:0 0 6px;word-break:keep-all}
+.home-about p:not(.micro){color:#5b6470;font-size:15px;line-height:1.9;letter-spacing:-.02em;word-break:keep-all;max-width:560px}
+@media(max-width:900px){.home-hero-grid{grid-template-columns:1fr 200px}.home-star{width:200px;height:200px}.tiles{grid-template-columns:repeat(3,1fr)}.home-about h2{font-size:32px}}
+@media(max-width:650px){.home-hero{padding:52px 0 56px}.home-hero-grid{grid-template-columns:1fr}.home-star{display:none}.home-hero h1{font-size:clamp(32px,9.4vw,46px)}.home-intro{font-size:16px}.feed{padding:52px 0 64px}.feed-head{flex-direction:column;gap:10px;margin-bottom:24px}.feed-head h2{font-size:26px}.tiles{grid-template-columns:repeat(2,1fr);gap:28px 14px}.tile strong{font-size:14px}.home-about{padding:58px 0}.home-profile img{width:80px;height:80px}.home-about h2{font-size:28px}}

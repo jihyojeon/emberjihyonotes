@@ -1,0 +1,16 @@
+/* AI email skills note: before/after email cards */
+.skill-steps{list-style:none;padding:0;margin:28px 0 0;counter-reset:step}
+.skill-steps>li{counter-increment:step;margin:0 0 48px}
+.skill-steps>li>h3{display:flex;gap:12px;align-items:baseline;margin:0 0 10px}
+.skill-steps>li>h3::before{content:counter(step,decimal-leading-zero);font:500 13px/1 'Inter',sans-serif;color:#8293ae;letter-spacing:.04em}
+.email{margin:18px 0 0;padding:20px 22px;border:1px solid #d7dfe9;border-radius:10px;background:#fff;font:400 14px/1.75 'Inter',sans-serif;color:#3a4352;overflow-wrap:anywhere}
+.email p{margin:0 0 12px}
+.email p:last-child{margin:0}
+.email .email-subject{font-weight:550;color:#303a49;padding-bottom:12px;border-bottom:1px solid #e6ebf2}
+.email mark{background:#f6dede;color:inherit;border-radius:3px;padding:0 2px}
+.email-label{font:500 11px 'Inter',sans-serif;letter-spacing:1.4px;color:#7a8aa4;margin:20px 0 -8px}
+.changes{margin:14px 0 0;padding-left:20px;font-size:14px;line-height:1.85}
+.changes del{color:#9aa3b2}
+.skill-pick{width:100%;border-collapse:collapse;margin:18px 0 0;font-size:14px;line-height:1.7}
+.skill-pick th,.skill-pick td{text-align:left;vertical-align:top;padding:12px 10px;border-bottom:1px solid #e1e6ee;word-break:keep-all}
+.skill-pick th{font-weight:550;color:#303a49;white-space:nowrap}

@@ -1,0 +1,13 @@
+/* Codex pets note: step screenshots */
+.pet-steps{list-style:none;padding:0;margin:28px 0 0;counter-reset:step}
+.pet-steps>li{counter-increment:step;margin:0 0 44px}
+.pet-steps>li>h3{display:flex;gap:12px;align-items:baseline;margin:0 0 10px}
+.pet-steps>li>h3::before{content:counter(step,decimal-leading-zero);font:500 13px/1 'Inter',sans-serif;color:#8293ae;letter-spacing:.04em}
+.shot{margin:18px 0 0}
+.shot img{display:block;width:100%;max-width:565px;height:auto;border:1px solid #d7dfe9;border-radius:10px;background:#fff}
+.shot.narrow img{max-width:360px}
+.shot figcaption{font-size:13px;line-height:1.7;color:#7a8392;margin-top:9px;word-break:keep-all}
+.prompt-swap{display:grid;gap:8px;margin:16px 0 0}
+.prompt-swap code{display:block;white-space:normal;padding:12px 14px;line-height:1.7}
+.prompt-swap del{color:#9aa3b2}
+.prompt-swap ins{text-decoration:none;background:#ebd8f3;border-radius:3px;padding:0 3px}

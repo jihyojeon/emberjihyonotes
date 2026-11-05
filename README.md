@@ -1,6 +1,6 @@
 # emberjihyo
 
-AI engineer & creator Ember의 한국어·영어 퍼스널 홈페이지.
+Senior SWE & creator Ember의 한국어·영어 퍼스널 홈페이지.
 
 ## 파일 구성
 

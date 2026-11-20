@@ -1,0 +1,15 @@
+/* Where-to-paste note: the three places, menu paths and FAQ */
+.place-table{width:100%;border-collapse:collapse;margin:18px 0 0;font-size:14px;line-height:1.7}
+.place-table th,.place-table td{text-align:left;vertical-align:top;padding:12px 10px;border-bottom:1px solid #e1e6ee;word-break:keep-all}
+.place-table th{font-weight:550;color:#303a49;white-space:nowrap}
+.place-steps{list-style:none;padding:0;margin:28px 0 0;counter-reset:step}
+.place-steps>li{counter-increment:step;margin:0 0 56px}
+.place-steps>li>h3{display:flex;gap:12px;align-items:baseline;margin:0 0 10px}
+.place-steps>li>h3::before{content:counter(step,decimal-leading-zero);font:500 13px/1 'Inter',sans-serif;color:#8293ae;letter-spacing:.04em}
+.place-steps h4{margin:28px 0 8px;font-size:16px;font-weight:650;color:#303a49}
+.path-steps{margin:12px 0 0;padding-left:22px;line-height:1.85}
+.faq{margin:18px 0 0}
+.faq dt{font-weight:600;color:#303a49;margin:22px 0 6px}
+.faq dd{margin:0;line-height:1.8;color:#4a5363}
+kbd{font:500 12px 'Inter',sans-serif;padding:2px 6px;border:1px solid #cfd6e0;border-bottom-width:2px;border-radius:5px;background:#fff}
+.place-table small{display:block;margin-top:4px;color:#7a8aa4;font-size:12px;line-height:1.5}
